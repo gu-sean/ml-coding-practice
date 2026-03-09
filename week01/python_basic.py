@@ -213,3 +213,7 @@ print(dic.values())
 print(list(dic.values()))
 
 # key, value 쌍 구하기
+print(dic.items())
+
+for key, value in dic.items():
+    print(key + ":")
