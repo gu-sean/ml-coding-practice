@@ -362,3 +362,9 @@ print((1, 2, 3))
 # x를 튜플로 반환
 print(tuple("Python"))
 print(tuple([1, 2, 3]))
+
+# x의 자료형을 반환
+print(type("abc"))
+print(type(a))
+
+#
