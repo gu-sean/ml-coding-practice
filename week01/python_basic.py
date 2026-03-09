@@ -153,5 +153,9 @@ b = [1, 2, 3]
 print(b.pop())
 print(b)
 
-print(b.pop())
+print(b.pop(0))
 print(b)
+
+# 특정 원소값의 개수
+a = [2, 1, 0, 2, 3, 2, 4, 2]
+print(a.co)
