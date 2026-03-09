@@ -376,4 +376,5 @@ print(sum(3,5))
 print(max([1, 4, 2, 8, 6]))
 print(max("Python"))
 
-print(min([1, 4, 2, ]))
+print(min([1, 4, 2, 8, 6]))
+print(min("Python"))
