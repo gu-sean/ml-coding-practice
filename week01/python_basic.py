@@ -208,4 +208,8 @@ print(list(dic.keys()))
 for key in dic.keys():
     print(dic[key])
     
-# valueㅇ
+# value의 리스트 만들기
+print(dic.values())
+print(list(dic.values()))
+
+# key, value 쌍 구하기
