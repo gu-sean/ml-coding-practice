@@ -56,4 +56,4 @@ print(a.count('p'))
 print(a.find('y'))
 print(a.find('p'))
 print(a.index('y'))
-#
+#print(a.index('p'))
