@@ -1,7 +1,3 @@
-import urllib.request
-import pandas 
-from datetime import datetime
-
 a=3
 b=4
 
@@ -406,4 +402,6 @@ print(sorted([3, 0, 2, 1]))
 print(sorted('Python'))
 
 # 패키지, 모듈 사용
-# Request('http://ww.sunmoon.ac.kr)
+# Request('http://ww.sunmoon.ac.kr)    # 오류 발생
+
+import ur
