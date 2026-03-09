@@ -252,4 +252,9 @@ s2.update([6, 7, 8, 9, 10])
 print(s2)
 
 # 특정 원소 제거
-s2.remove()
+s2.remove(7)
+print(s2)
+
+s2 = set([1, 2, 3, 4, 5, 6, 3, 1,6])
+print(s2)
+
