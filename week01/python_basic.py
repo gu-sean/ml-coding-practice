@@ -45,4 +45,8 @@ print(b)
 
 print(a[4:6])
 print(a[19:])
-print()
+print(a[:3])
+print(a[7:-11])
+
+# 문자 개수 계산
+a = "Python"
