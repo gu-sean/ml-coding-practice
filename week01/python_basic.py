@@ -17,8 +17,12 @@ print(7 % 3)
 print(a // b)
 print(7 // 3)
 
-s1= 'Hello Python'
+s1 = 'Hello Python'
 print(s1)
 
-s3= '''Hello
+s3 = '''Hello
 Python'''
+print(s3)
+
+head = "Python"
+tail = ""
