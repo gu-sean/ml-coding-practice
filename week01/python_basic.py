@@ -280,3 +280,7 @@ print('i' not in 'Python')
 # 아무 것도 하지 않게 설정
 if money >= 10:
     pass
+else:
+    print('저금하자!')
+    
+"""# 4. 반복문"""
