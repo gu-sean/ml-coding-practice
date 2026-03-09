@@ -283,4 +283,5 @@ if money >= 10:
 else:
     print('저금하자!')
     
-"""# 4. 반복문"""
+# for 반복문1
+test_list = ['one', 'two', 'three']
