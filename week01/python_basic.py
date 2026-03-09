@@ -405,4 +405,9 @@ print(sorted('Python'))
 # Request('http://ww.sunmoon.ac.kr)    # 오류 발생
 
 import urllib.request
-urllib.request.Request('http://www.sunmo')
+urllib.request.Request('http://www.sunmoon.ac.kr')
+
+import pandas
+pandas.DataFrame()
+
+from datetime
