@@ -93,4 +93,7 @@ print(b.split(','))
 a = [1, 2, 3]
 b = ['Life', 'is', 'too', 'short']
 c = [1, 2, 'Life', 'is']
-d = [1, 2, [3]]
+d = [1, 2, [3, 4], ['Life', 'is']]
+
+# 리스트 인덱싱
+print(d[0])
