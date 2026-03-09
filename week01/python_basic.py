@@ -404,4 +404,5 @@ print(sorted('Python'))
 # 패키지, 모듈 사용
 # Request('http://ww.sunmoon.ac.kr)    # 오류 발생
 
-import ur
+import urllib.request
+urllib.request.Request('http://www.sunmo')
