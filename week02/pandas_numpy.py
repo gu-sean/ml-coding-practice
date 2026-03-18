@@ -102,4 +102,4 @@ iris = pd.read_csv(file_url)
 
 print(iris.head())
 
-print(iris.groupby('class'))
+print(iris.groupby('class').std())
