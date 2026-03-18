@@ -9,4 +9,4 @@ print(sample.tail())
 sample.info()
 sample.describe()
 
-sample_dic = {'name':['Jo']}
+sample_dic = {'name':['John']}
