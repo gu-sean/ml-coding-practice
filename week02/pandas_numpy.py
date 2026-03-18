@@ -112,3 +112,5 @@ print(iris.drop('class', axis=1).agg(['sum','mean','std']))
 print(iris['class'].unique())
 print(iris['class'].nunique())
 print(iris['class'].value_counts())
+
+# 
