@@ -34,4 +34,4 @@ print(sample_df.loc[['a','c','e']])
 print(sample_df.loc['a':'c'])
 
 # iloc: integer location의 약자
-print(sample_df.)
+print(sample_df.iloc)
