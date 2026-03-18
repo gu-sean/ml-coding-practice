@@ -4,3 +4,7 @@ file_url = 'https://media.githubusercontent.com/media/musthave-ML10/data_source/
 sample = pd.read_csv(file_url)
 
 print(sample.head())
+print(sample.tail())
+
+sample.info()
+sample.describe()
