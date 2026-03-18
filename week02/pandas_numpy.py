@@ -183,4 +183,4 @@ print(sample_np[0,2])
 print(sample_np[0:3,2:4])
 print(sample_np[:,2])
 
-np_a = np.array
+np_a = np.array([1,3],[])
