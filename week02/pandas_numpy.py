@@ -225,4 +225,4 @@ print(a.max())  # 모든 요소 중 최댓값
 
 print(a.max(axis=1))  
 print(a.cumsum())   # 모든 요소의 누적합
-    
+print(a.sum())     
