@@ -52,4 +52,4 @@ print(netflix['release_year'] > 2015)
 more2015 = netflix[netflix['release_year'] > 2015]
 print(more2015.head(10))
 
-print(~(netflix['release_year']))
+print(~(netflix['release_year'] > 2015))
