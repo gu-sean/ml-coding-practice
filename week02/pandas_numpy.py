@@ -144,4 +144,5 @@ print(df.head())
 df['average'] = df[['math','science','english']].mean(axis=1)
 print(df)
 
-# 이름과 평균값만을 포함하는 새로운 
+# 이름과 평균값만을 포함하는 새로운 데이터프레임 생성
+average
