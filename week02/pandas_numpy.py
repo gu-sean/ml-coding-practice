@@ -78,5 +78,5 @@ print(df.head())
 condition = (
     (df['comment_length'] >= 100) & # 댓글 길이 100자 이상
     (df['likes'] >= 20) &  #좋아요 20개 이상
-    (~df['is'])
+    (~df['is_spam'])
 )
