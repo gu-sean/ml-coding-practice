@@ -72,3 +72,4 @@ data = {
     'has_image':[True, False, True, True, False, False, True,True]
 }
 df = pd.DataFrame(data)
+print(df.head())
