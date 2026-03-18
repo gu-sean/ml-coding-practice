@@ -84,3 +84,4 @@ condition = (
 
 # 조건을 만족하는 행들 필터링
 winner_df = df[condition]
+print(winner_df)
