@@ -197,4 +197,4 @@ print(np_a-np_b)
 print(np_a*np_b)
 print(np_a@np_b)
 
-print(np.random.r)
+print(np.random.randint(11))
