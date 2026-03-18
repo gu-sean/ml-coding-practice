@@ -23,4 +23,4 @@ file_url = 'https://media.githubusercontent.com/media/musthave-ML10/data_source/
 sample_df = pd.read_csv(file_url,index_col=0)
 print(sample_df.head())
 
-print(())
+print(sam)
