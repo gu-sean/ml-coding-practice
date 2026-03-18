@@ -14,4 +14,4 @@ a = pd.DataFrame(sample_dic)
 
 a.info()
 
-pd.DataFrame([[1,2,]])
+pd.DataFrame([[1,2,],[3,4]])
