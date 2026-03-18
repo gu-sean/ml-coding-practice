@@ -224,4 +224,4 @@ print(a.min())  # 모든 요소 중 최솟값
 print(a.max())  # 모든 요소 중 최댓값
 
 print(a.max(axis=1))  
-print(a.sum())    
+print(a.cumprod())    
