@@ -77,5 +77,6 @@ print(df.head())
 # 필터링 조건 설정
 condition = (
     (df['comment_length'] >= 100) & # 댓글 길이 100자 이상
-    (df['likes'] >= 20) &  #ㅈ
+    (df['likes'] >= 20) &  #좋아요 20개 이상
+    
 )
