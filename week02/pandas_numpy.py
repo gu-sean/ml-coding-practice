@@ -141,4 +141,4 @@ df = pd.DataFrame(data)
 print(df.head())
 
 # 개인별 과목 점수의 평균값 계산 (axis=1)
-df['']
+df['av']
