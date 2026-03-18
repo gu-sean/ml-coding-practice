@@ -205,4 +205,4 @@ print(np.random.choice(['red','green','white','black','blue'], size=3, replace=F
 
 print(np.arange(1,11))
 print(np.arange(1,11,2))
-print(np.li)
+print(np.linspace)
