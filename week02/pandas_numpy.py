@@ -44,4 +44,6 @@ print(sample_df.drop(['var_1','var_2'],axis=1))
 print(sample_df.drop(['a','b','c'],axis=0)) # 행을 제거하려면 axis = 0 또는 디폴드로 사용
 
 netflix = pd.read_csv('2.1.1.netflix.csv')
-print(n)
+print(netflix.head())
+
+print(netflix['rele'])
