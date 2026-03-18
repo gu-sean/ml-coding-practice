@@ -104,4 +104,4 @@ print(iris.head())
 
 print(iris.groupby('class').std())
 
-print()
+print(iris.drop('class'))
