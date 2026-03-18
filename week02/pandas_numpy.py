@@ -179,3 +179,4 @@ print(pd.DataFrame(sample_np,columns=sample_df.columns))  # 새 프레임워크�
 
 print(sample_np)
 print(sample_np[0])
+print(sample_np)
