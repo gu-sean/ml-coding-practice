@@ -113,4 +113,4 @@ print(iris['class'].unique())
 print(iris['class'].nunique())
 print(iris['class'].value_counts())
 
-# 
+# 예제 데이터 생성
