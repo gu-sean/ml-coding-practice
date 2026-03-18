@@ -183,3 +183,4 @@ print(sample_np[0,2])
 print(sample_np[0:3,2:4])
 print(sample_np[:,2])
 
+np_a
