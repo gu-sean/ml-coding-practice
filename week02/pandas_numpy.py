@@ -218,4 +218,4 @@ print(a)
 
 print(a.sum())  # 모든 요소의 합
 print(a.mean())  # 모든 요소의 평균
-print(a.sum())  
+print(a.mean())  
