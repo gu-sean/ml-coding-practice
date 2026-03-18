@@ -73,3 +73,5 @@ data = {
 }
 df = pd.DataFrame(data)
 print(df.head())
+
+# 필터링
