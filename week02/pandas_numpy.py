@@ -210,4 +210,4 @@ print(np.linspace(1,100,10))  # 1부터 10까지 균등한 간격의 값을 4개
 A = np.array([4,16,25])
 print(np.sqrt(A))
 
-print(np.arange(8).reshape(2,4)+
+print(np.arange(8).reshape(2,4)+10)
