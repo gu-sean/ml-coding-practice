@@ -131,5 +131,6 @@ print(result)
 # 예제 데이터 생성
 data = {
     'name':['Alice','Bob','Charlie','David','Eve'],
-    'math':[88,92,95,]
+    'math':[88,92,85,95,90],
+    ;
 }
