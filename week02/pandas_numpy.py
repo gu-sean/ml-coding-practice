@@ -130,5 +130,6 @@ print(result)
 
 # 예제 데이터 생성
 data = {
-    'name':['Alice','Bob','Charlie','David','Eve']
+    'name':['Alice','Bob','Charlie','David','Eve'],
+    ''
 }
