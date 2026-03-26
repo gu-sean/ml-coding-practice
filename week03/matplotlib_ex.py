@@ -321,4 +321,4 @@ plt.close()
 fig, axes = plt.subplot(2,2)
 
 # 선그래프
-axes[0,0]
+axes[0,0].plot
