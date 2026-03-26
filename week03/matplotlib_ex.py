@@ -378,4 +378,4 @@ y2 = parch_counts[1].values # 생존자
 fig, ax1 =plt.subplot()
 
 # 첫 번째 그래프 설정 (선 그래프)
-ax1.plot(x,y1, '-s', color='indigo')
+ax1.plot(x,y1, '-s', color='indigo', ma)
