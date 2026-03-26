@@ -118,3 +118,4 @@ plt.close()
 
 # 처리 전
 print(titanic.info(), '\n')
+
