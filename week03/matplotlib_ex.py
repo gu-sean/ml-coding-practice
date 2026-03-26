@@ -348,3 +348,4 @@ axes[0].set_xlabel('Parch')
 axes[0].set_ylabel('Not Survived Count', color='indigo')
 axes[0].tick_prams(axis='y', labelcolor='indigo')
 axes[0].legend(loc='upper right')
+
