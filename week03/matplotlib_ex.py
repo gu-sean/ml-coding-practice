@@ -350,7 +350,7 @@ axes[0].tick_prams(axis='y', labelcolor='indigo')
 axes[0].legend(loc='upper right')
 
 # 두 번째 서브플롯 설정(막대 그래프)
-axes[1].bar
+axes[1].bar(x, y2,)
 axes[1].set_xlabel('Parch')
 axes[1].set_ylabel('Survived Count', color='deeppink')
 axes[1].tick_prams(axis='y', labelcolor='deeppink')
