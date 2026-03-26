@@ -199,4 +199,4 @@ plt.boxplot([titanic[titanic['Pcalss'] == 1]['Age'],
              titanic[titanic['Pcalss'] == 3]['Age']],
              label=['1st Class', '2nd Class', '3rd Class'])
 
-p
+plt.
