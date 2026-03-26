@@ -212,4 +212,4 @@ titanic['Age'] = titanic['Age'].fillna(titanic['Age'].mean())
 print(titanic.info())
 
 # 바이올린 플롯 그리기
-plt.fi
+plt.figure(figsize=(10,6))
