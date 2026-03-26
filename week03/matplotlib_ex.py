@@ -311,3 +311,4 @@ plt.legend(loc='upper right')
 
 # 제목 설정
 plt.suptitle('Survival Analysis by Number of Parents/Children (Parch) on the Titabic')
+plt.
