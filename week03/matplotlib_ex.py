@@ -145,4 +145,7 @@ print(correlation_matrix)
 
 # 히트맵 그리기
 plt.matshow(correlation_matrix, cmap='PuRd_r')
-plt.color
+plt.colorbar()
+
+# x축과 y축의 눈금 설정
+plt.x
