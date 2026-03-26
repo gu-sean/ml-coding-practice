@@ -209,3 +209,4 @@ plt.colse()
 
 # 결측치 처리
 titanic['Age'] = titanic['Age'].fillna(titanic['Age'].mean())
+print()
