@@ -203,4 +203,4 @@ plt.title('Box Plot for Age by Pclass')
 plt.xlabel('Pclass')
 plt.ylabel('Age')
 plt.savefig('Figure09.png')
-plt.col
+plt.colse()
