@@ -294,4 +294,4 @@ plt.figure(figsize=(10,10))
 # 첫 번째 서브플롯 설정 (선 그래프) 
 plt.subplot(2, 1, 1)
 # 선 그래프 그리기
-plt.
+plt.plot()
