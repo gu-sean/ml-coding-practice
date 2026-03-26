@@ -283,4 +283,4 @@ titanic = pd.read_csv('3.1.1.titanic.csv')
 parch_counts = titanic.groupby('Parch')['Survived'].value_counts().unstack().fillna(0)
 print(parch_counts)
 
-# x
+# x, y 설정
