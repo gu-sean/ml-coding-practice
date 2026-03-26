@@ -203,7 +203,7 @@ plt.title('Box Plot for Age by Pclass')
 plt.xlabel('Pclass')
 plt.ylabel('Age')
 plt.savefig('Figure09.png')
-plt.colse()
+plt.close()
 
 """### **바이올린 플롯 : 승객 등급에 따른 나이 분포 표시하기**"""
 
