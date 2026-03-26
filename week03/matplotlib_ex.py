@@ -179,4 +179,5 @@ plt.fill_between(survived_counts.index.astype(str), survived_countsp[0],
                  color='hotpink', alpha=0.6, label='Not Survived')
 
 plt.title('Survival by Age Group on Titanic')
-plt.xlabel
+plt.xlabel('Age')
+plt.y
