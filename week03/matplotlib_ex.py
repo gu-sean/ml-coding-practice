@@ -13,4 +13,4 @@ print(titanic.head())
 # 열에 대한 요약 정보 확인
 print(titanic.info())
 
-"""### **선"""
+"""### **선 그래프:"""
