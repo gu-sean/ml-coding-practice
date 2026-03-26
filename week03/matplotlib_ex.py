@@ -114,4 +114,4 @@ plt.title('Survival Distribution on the Titanic')
 plt.savefig('Figure05.png')
 plt.close()
 
-"""### **"""
+"""### **히스토그램 : 승객의 나이 분포 표시하기"""
