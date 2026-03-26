@@ -112,4 +112,4 @@ plt.pie(survived_counts, labels=['Not Survived', 'Survived'], colors=['orange', 
 
 plt.title('Survival Distribution on the Titanic')
 plt.savefig('Figure05.png')
-plt.cl
+plt.close()
