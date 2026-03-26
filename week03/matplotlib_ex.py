@@ -322,3 +322,6 @@ fig, axes = plt.subplot(2,2)
 
 # 선그래프
 axes[0,0].plot([1,2,3])
+axes[0,0].plot([1,2,3])
+axes[0,0].plot([1,2,3])
+axes[0,0].plot([1,2,3])
