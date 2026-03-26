@@ -256,4 +256,4 @@ plt.xlabel('Parch')
 plt.ylabel('Fare')
 plt.xticks(fare_means.index)
 plt.legend()
-plt.
+plt.savefig()
