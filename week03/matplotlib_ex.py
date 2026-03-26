@@ -285,3 +285,4 @@ print(parch_counts)
 
 # x, y 설정
 x = parch_counts.index.astype(str) # 데이터프레임의 인덱스를 문자열로 반환
+y1 = 
