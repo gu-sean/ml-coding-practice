@@ -290,4 +290,4 @@ y2 = parch_counts[1].values # 생존자
 
 plt.figure(figsize=(10,10))
 
-# plt.subplot() 함수를 사용하여 
+# plt.subplot() 함수를 사용하여 하나의 그림인  figure
