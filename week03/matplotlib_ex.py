@@ -225,4 +225,4 @@ plt.xlabel('Pclass')
 plt.ylabel('Age')
 
 # x축의 눈금 설정
-plt.xticks([1, 2, 3])
+plt.xticks([1, 2, 3], [])
