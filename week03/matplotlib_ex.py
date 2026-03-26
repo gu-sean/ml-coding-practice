@@ -185,4 +185,4 @@ plt.xticks(rotation=45)
 plt.legend()
 plt.grid(True)
 plt.savefig('Figure08.png')
-plt.cl
+plt.close()
