@@ -3,3 +3,4 @@
 import pandas as pd
 
 # 타이타닉 CSV 파일 불러오기
+tit
