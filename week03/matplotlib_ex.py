@@ -148,4 +148,4 @@ plt.matshow(correlation_matrix, cmap='PuRd_r')
 plt.colorbar()
 
 # x축과 y축의 눈금 설정
-plt.x
+plt.xticks(r)
