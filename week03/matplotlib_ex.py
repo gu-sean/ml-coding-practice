@@ -73,4 +73,5 @@ plt.legend(bars, ['Survived - Female', 'Survived - Male'], loc='upper right')
 plt.axvline(x=survived_counts['male'], color='gray', linestyle='--', linewidth=1)
 
 # 생존자 수 표시
-for i, value in enumerate(su)
+for i, value in enumerate(survived_counts):
+    
