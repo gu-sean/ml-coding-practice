@@ -70,4 +70,4 @@ plt.ylabel('Gender')
 plt.legend(bars, ['Survived - Female', 'Survived - Male'], loc='upper right')
 
 # 차이 강조를 위해 수평선 추가
-plt.axvline(x=sur)
+plt.axvline(x=survived_counts['male'])
