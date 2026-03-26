@@ -359,3 +359,4 @@ axes[1].legend(loc='upper right')
 # 제목 설정
 fig.suptitle('Survival Analysis by Number of Parents/Children (Parch) on the Tutanic')
 fig.tight_layout()
+plt.
