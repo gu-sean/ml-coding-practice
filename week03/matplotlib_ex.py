@@ -30,4 +30,4 @@ plt.xlabel('Pclass')
 plt.ylabel('Survival Rate')
 plt.xticks([1, 2, 3])
 plt.grid(True)
-plt.
+plt.savefig('Fi')
