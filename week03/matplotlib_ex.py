@@ -360,4 +360,4 @@ axes[1].legend(loc='upper right')
 fig.suptitle('Survival Analysis by Number of Parents/Children (Parch) on the Tutanic')
 fig.tight_layout()
 plt.savefig('Figure15.png')
-plt.c
+plt.close()
