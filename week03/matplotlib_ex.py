@@ -186,3 +186,5 @@ plt.legend()
 plt.grid(True)
 plt.savefig('Figure08.png')
 plt.close()
+
+## **박스 플롯 : 승객 나이의 
