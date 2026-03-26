@@ -76,4 +76,5 @@ plt.axvline(x=survived_counts['male'], color='gray', linestyle='--', linewidth=1
 for i, value in enumerate(survived_counts):
     plt.text(value + 1, i, str(value), ha='left', va='center')
     
-plt.savefig('Figur')
+plt.savefig('Figure03.png')
+plt.close()
