@@ -153,4 +153,4 @@ plt.yticks(range(len(correlation_matrix.columns)), correlation_matrix.columns)
 
 plt.title('Correlation Heatmap of Titanic')
 plt.savefig('Figure07.png')
-plt
+plt.cl
