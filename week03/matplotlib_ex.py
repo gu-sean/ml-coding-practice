@@ -382,3 +382,4 @@ ax1.plot(x,y1, '-s', color='indigo', markersize=7, linewidth=5, alpha=0.7, label
 ax1.set_xlabel('Parch') # x축의 레이블
 ax1.set_ylabel('Not Survived Count', color='indigo') # y축의 레이블
 ax1.tick_params(axis='y', labelcolor='indigo') # 눈금의 모양과 속성
+ax1.
