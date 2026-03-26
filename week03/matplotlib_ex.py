@@ -375,4 +375,4 @@ y2 = parch_counts[1].values # 생존자
 
 # plt.subplots()  함수를 사용하여 그래프 생성
 # figure와 서브플롯 생성
-fig, ax1 =
+fig, ax1 =plt.
