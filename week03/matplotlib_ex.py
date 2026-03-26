@@ -197,4 +197,4 @@ print(titanic.info())
 plt.boxplot([titanic[titanic['Pcalss'] == 1]['Age'],
              titanic[titanic['Pcalss'] == 2]['Age'],
              titanic[titanic['Pcalss'] == 3]['Age'],
-             label=[1]])
+             label=[1st c]])
