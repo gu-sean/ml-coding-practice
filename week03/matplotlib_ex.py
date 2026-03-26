@@ -239,5 +239,5 @@ plt.close()
 fare_means = titanic.groupby('Parch')['Fare'].mean()  # 평균
 print(fare_means, '\n')
 
-fare_std = titanic.groupby('Parch')['Fare'].mean()  # 평균
+fare_std = titanic.groupby('Parch')['Fare'].std()  # 평균
 print(fare_means, '\n')
