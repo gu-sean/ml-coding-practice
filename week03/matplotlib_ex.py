@@ -103,4 +103,4 @@ plt.close()
 
 # 사망자와 생존자의 수 계산
 survived_counts = titanic['Survived'].value_counts()
-print()
+print(su)
