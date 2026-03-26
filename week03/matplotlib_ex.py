@@ -218,4 +218,4 @@ plt.figure(figsize=(10,6))
 violin_plot = plt.violinplot([titanic[titanic['Pcalss'] == 1]['Age'],
                               titanic[titanic['Pcalss'] == 2]['Age'],
                               titanic[titanic['Pcalss'] == 3]['Age']],
-                             sh)
+                             showmeans=)
