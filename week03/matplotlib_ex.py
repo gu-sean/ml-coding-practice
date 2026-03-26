@@ -190,4 +190,5 @@ plt.close()
 ## **박스 플롯 : 승객 나이의 데이터 분포, 중앙값, 이상치 살펴보기**
 
 # 결측치 처리
-titanic = titanic.dropna(subset=)
+titanic = titanic.dropna(subset=['Age'])
+print()
