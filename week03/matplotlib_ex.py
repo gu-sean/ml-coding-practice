@@ -311,4 +311,11 @@ plt.legend(loc='upper right')
 
 # 제목 설정
 plt.suptitle('Survival Analysis by Number of Parents/Children (Parch) on the Titabic')
-plt.ti
+plt.tight_layout()
+plt.savefig('Figure13.png')
+plt.close()
+
+## **개별 서브플롯을 동시에 생성하기**
+
+# 2*2 구성의 figure
+fig, axes = 
