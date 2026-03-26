@@ -83,4 +83,5 @@ plt.close()
 
 print(titanic.info(),  '\n')
 
-# 겶ㅊ
+# 결측치 처리
+titanic = titanic.
