@@ -379,4 +379,4 @@ fig, ax1 =plt.subplot()
 
 # 첫 번째 그래프 설정 (선 그래프)
 ax1.plot(x,y1, '-s', color='indigo', markersize=7, linewidth=5, alpha=0.7, label='Not Survived')
-ax1.set_xl
+ax1.set_xlabel
