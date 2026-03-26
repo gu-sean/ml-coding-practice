@@ -248,4 +248,4 @@ print(fare_std)
 plt.figure(figsize=(10,6))
 
 # 에러바 생성
-plt.errorbar(f)
+plt.errorbar(fare_means.index)
