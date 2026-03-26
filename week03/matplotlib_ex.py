@@ -388,4 +388,4 @@ ax1.legend(loc='upper right', bbox_to_anchor=(1,1)) # 범례
 ax2 = ax1.twinx()
 
 # 두 번째 그레프 생성 (막대 그래프)
-ax2.bar(x,y2,color='deep')
+ax2.bar(x,y2,color='deeppink', alpha=)
