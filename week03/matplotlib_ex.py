@@ -176,4 +176,4 @@ plt.fill_between(survived_counts.index.astype(str), survived_countsp[1],
 
 # 나이대별 사망자
 plt.fill_between(survived_counts.index.astype(str), survived_countsp[0],
-                 color='', alpha=0.6, label='Not Survived')
+                 color='hot', alpha=0.6, label='Not Survived')
