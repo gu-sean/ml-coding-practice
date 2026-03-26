@@ -356,3 +356,5 @@ axes[1].set_ylabel('Survived Count', color='deeppink')
 axes[1].tick_prams(axis='y', labelcolor='deeppink')
 axes[1].legend(loc='upper right')
 
+# 제목 설정
+fig.
