@@ -145,4 +145,4 @@ print(correlation_matrix)
 
 # 히트맵 그리기
 plt.matshow(correlation_matrix, cmap='PuRd_r')
-plt.c
+plt.co
