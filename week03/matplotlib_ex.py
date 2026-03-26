@@ -393,4 +393,5 @@ ax2.set_ylabel('Survived Count', color='deeppink')  # 서브플롯  y축에 레�
 ax2.legend(loc='upper right', bbox_to_anchor=(1, 0.9))
 
 plt.suptitle('Survival Analysis by Number of Parents/Children (Parch) on the Titanic')
-plt.ti
+plt.tight_layout()
+plt.s
