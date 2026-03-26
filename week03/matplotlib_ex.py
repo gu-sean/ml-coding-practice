@@ -194,7 +194,7 @@ titanic = titanic.dropna(subset=['Age'])
 print(titanic.info())
 
 # 승객 등급에 따른 나이의 박스 플롯
-plt.boxplot([titanic[titanic['Pcalss'] == 1]['Age'],
+plt.boxplot([titanic[titanic['Pclass'] == 1]['Age'],
             titanic[titanic['Pcalss'] == 2]['Age'],
             titanic[titanic['Pcalss'] == 3]['Age']],
             label=['1st Class', '2nd Class', '3rd Class'])
