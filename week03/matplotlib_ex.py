@@ -85,3 +85,7 @@ print(titanic.info(),  '\n')
 
 # 결측치 처리
 titanic = titanic.dropna(subset=['Age', 'Fare', 'Survived'])
+print(titanic.info())
+
+# 산점도 그래프 그리기
+plt.
