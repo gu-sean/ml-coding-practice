@@ -302,7 +302,8 @@ plt.tick_params(axis='y', labelcolor='indigo')
 plt.legend(loc='upper right')
 
 # 두 번쨰 서브플롯 설정(막대 그래프)
-plt.subplot(2, 1, 1)
+plt.subplot(2, 1, 2)
+
 
 plt.xlabel('Parch')
 plt.ylabel('Not Survived Count', color='indigo')
