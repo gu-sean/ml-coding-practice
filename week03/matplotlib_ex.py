@@ -253,4 +253,5 @@ plt.errorbar(fare_means.index, fare_means, yerr=fare_std, fmt='o',
 
 plt.title('Error Bar Plot of Fare by Parch')
 plt.xlabel('Parch')
-plt.ylabel('')
+plt.ylabel('Fare')
+plt.x
