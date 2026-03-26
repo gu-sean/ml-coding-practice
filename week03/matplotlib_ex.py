@@ -37,4 +37,4 @@ plt.close()                     # 다음 plot을 새로 그리기 위해 plt 닫
 
 # 승선 항구에 따른 생존자의 수 계산
 survived_counts = titanic[titanic['Survived'] == 1]['Embarked'].value_counts()
-print(su)
+print(survived_counts)
