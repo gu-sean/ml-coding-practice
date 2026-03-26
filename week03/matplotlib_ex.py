@@ -121,3 +121,4 @@ print(titanic.info(), '\n')
 
 # 나이 결측치 처리 후
 titanic = titanic.dropna(subset=['Age'])
+print(titanic.)
