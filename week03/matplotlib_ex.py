@@ -117,4 +117,4 @@ plt.close()
 """### **히스토그램 : 승객의 나이 분포 표시하기**"""
 
 # 처리 전
-print(titanic.info(),)
+print(titanic.info(), '\n')
