@@ -404,3 +404,4 @@ plt.hist(titanic['Age'], bins=20, color='skyblue', edgecolor='black')
 plt.xlabel('Age')
 plt.ylabel('Count')
 plt.title('Distribution of Ages on the Titanic')
+plt.
