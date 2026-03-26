@@ -158,4 +158,7 @@ plt.close()
 ## **영역 채우기 그래프 : 나이대별 생존자와 사망자 수 표현하기**
 
 # 결측치 처리
-titanic = titanic.dropna(subset=)
+titanic = titanic.dropna(subset=['Age', 'Fare'])
+
+# 나이대별 생존자와 사망자 수 계산하기 위해 범주형 변수로 변환
+age_
