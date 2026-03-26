@@ -308,3 +308,6 @@ plt.xlabel('Parch')
 plt.ylabel('Survived Count', color='deeppink')
 plt.tick_params(axis='y', labelcolor='deeppink')
 plt.legend(loc='upper right')
+
+# 제목 설정
+plt.
