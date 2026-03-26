@@ -65,4 +65,8 @@ print(survived_counts)
 # 수평 막대 그래프 그리기
 bars = plt.barh(survived_counts.index, survived_counts, color=['darkturquoise', 'salmon'])
 plt.title('Survived Counts by Gender on Titanic')
-plt.xlabel()
+plt.xlabel('Count')
+plt.ylabel('Gender')
+plt.legend(bars, [
+
+])
