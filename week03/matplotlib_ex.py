@@ -129,4 +129,4 @@ plt.hist(titanic['Age'], bins=20, color='seagreen', edgecolor='black')
 
 plt.xlabel('Age')
 plt.ylabel('Count')
-plt.title('Distri')
+plt.title('Distribution of Ag')
