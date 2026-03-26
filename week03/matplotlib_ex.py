@@ -367,3 +367,5 @@ plt.close()
 # 각 부모와 자녀의 수에 따른 생존자와 사망자 수 계산
 parch_counts = titanic.groupby('Parch')['Survived'].value_counts().unstack().fillna(0)
 print(parch_counts)
+
+#
