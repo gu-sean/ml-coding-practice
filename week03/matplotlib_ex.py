@@ -215,4 +215,4 @@ print(titanic.info())
 plt.figure(figsize=(10,6))
 
 # showmeans=False는 평균값을 표시하지 않도록 하고, showmedians=True는 중앙값을 표시하도록 함
-violin_plot = plt.violinplot([titanic])
+violin_plot = plt.violinplot([titanic[tit]])
