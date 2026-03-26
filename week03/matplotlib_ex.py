@@ -374,3 +374,4 @@ y1 = parch_counts[0].values # 사망자
 y2 = parch_counts[1].values # 생존자
 
 # plt.subplots()  함수를 사용하여 그래프 생성
+# figure
