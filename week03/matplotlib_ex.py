@@ -394,4 +394,4 @@ ax2.legend(loc='upper right', bbox_to_anchor=(1, 0.9))
 
 plt.suptitle('Survival Analysis by Number of Parents/Children (Parch) on the Titanic')
 plt.tight_layout()
-plt.s
+plt.savefig()
