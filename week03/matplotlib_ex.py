@@ -180,4 +180,5 @@ plt.fill_between(survived_counts.index.astype(str), survived_countsp[0],
 
 plt.title('Survival by Age Group on Titanic')
 plt.xlabel('Age')
-plt.y
+plt.ylabel('Count')
+plt.
