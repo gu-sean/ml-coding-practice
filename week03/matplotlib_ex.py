@@ -53,4 +53,4 @@ plt.grid(axis='y', linestyle='--', alpha=0.7)
 for i, value in enumerate(survived_counts):
     plt.text(i, value + 1, str(value), ha='center', va='bottom')
 
-plt.savefig('')
+plt.savefig('Fi')
