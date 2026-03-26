@@ -26,4 +26,4 @@ import matplotlib.pyplot as plt
 plt.plot(pclass_survived_mean['Pclass'],pclass_survived_mean['Survived'],
          marker='o', linestyle='-', color='violet')
 plt.title('Survival Rate Variation Across Passenger Classes')
-plt.xl
+plt.xlabel('Pclass')
