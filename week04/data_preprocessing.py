@@ -2,4 +2,4 @@
 
 # 데이터 준비
 from pathlib import Path
-import n
+import num
