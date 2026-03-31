@@ -2,4 +2,5 @@
 
 # 데이터 준비
 from pathlib import Path
-import num
+import numpy as np
+import
