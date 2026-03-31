@@ -17,4 +17,4 @@ def load_housing_data():
             housing_tarball.extractall(path="datasets")
     return pd.read_csv(Path("datasets/housing/housing.csv"))
 
-housing
+housing = lod
