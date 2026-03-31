@@ -8,4 +8,4 @@ import tarfile
 import urllib.request
 
 def load_housing_data():
-    tarball_
+    tarball_path = Path("")
