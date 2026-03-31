@@ -5,3 +5,4 @@ import seaborn as sns
 
 # **팁(tips) 데이터셋 불러오기**
 tips = sns.load_dataset('tips')
+print(t)
