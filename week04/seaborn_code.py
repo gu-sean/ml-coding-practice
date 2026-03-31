@@ -76,4 +76,5 @@ plt.savefig('./week04/Seaborn_Figure04.jpg')
 sns.jointplot(x='size', y='tip', data=tips, kind='scatter')
 plt.savefig('./week04/Seaborn_Figure05.jpg')
 
-#
+# **관계 그래프**
+# pai
