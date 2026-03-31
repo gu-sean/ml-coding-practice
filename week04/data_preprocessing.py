@@ -7,4 +7,4 @@ import pandas as pd
 import tarfile
 import urllib.request
 
-def load_ho
+def load_housing
