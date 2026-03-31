@@ -63,3 +63,5 @@ print(housing_num.median().values)  # 수동으로 계산한 중간값
 X = imputer.transform(housing_num)
 
 imputer.feature_names_in_
+
+ho
