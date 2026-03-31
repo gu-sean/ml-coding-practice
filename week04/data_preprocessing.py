@@ -12,4 +12,4 @@ def load_housing_data():
     if not tarball_path.is_file():
         Path("datasets").mkdir(parents=True, exist_ok=True)
         url = "https://github.com/ageron/data/raw/main/housing.tgz"
-        urllib.request.urlretrieve
+        urllib.request.urlretrieve(u)
