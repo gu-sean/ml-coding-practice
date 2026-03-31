@@ -76,4 +76,4 @@ outlier_pred = isolation_forest.fit_predict(X)
 
 outlier_pred
 
-housing = 
+housing = housing.
