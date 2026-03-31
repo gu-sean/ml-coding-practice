@@ -20,3 +20,4 @@ def load_housing_data():
 housing = load_housing_data()
 
 # 테스트 세트 만들기
+f
