@@ -64,4 +64,4 @@ X = imputer.transform(housing_num)
 
 imputer.feature_names_in_
 
-ho
+housing_tr
