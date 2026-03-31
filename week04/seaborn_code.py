@@ -80,4 +80,4 @@ plt.savefig('./week04/Seaborn_Figure05.jpg')
 # pairplot( ) 그리기
 sns.pairplot(data=tips, hue='sex', diag_kind='hist', palette='husl')
 
-plt.s
+plt.sup
