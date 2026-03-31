@@ -44,4 +44,4 @@ sns.countplot(x='time', data=tips, ax=ax1)
 sns.countplot(x='time', hue='day', data=tips, palette='Set2', ax=ax2)
 
 ax1.set_title('Frequency of Tips by Time')
-ax2.set_title('Frequency of Tips by Time and '
+ax2.set_title('Frequency of Tips by Time and Day'
