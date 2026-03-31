@@ -31,4 +31,4 @@ plt.savefig('./week04/Seaborn_Figure01.jpg')
 
 # **빈도 그래프**
 # figure에 2개의 서브 플롯을 생성
-fig = plt.
+fig = plt.fi
