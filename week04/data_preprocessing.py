@@ -66,4 +66,4 @@ imputer.feature_names_in_
 
 housing_tr = pd.DataFrame(X, columns=housing_num.columns, 
                         index=housing_num.index)
-
+ho
