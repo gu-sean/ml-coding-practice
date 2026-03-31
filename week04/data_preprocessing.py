@@ -17,4 +17,6 @@ def load_housing_data():
             housing_tarball.extractall(path="datasets")
     return pd.read_csv(Path("datasets/housing/housing.csv"))
 
-housing = lod
+housing = load_housing_data()
+
+# 테스트 세트 만들기
