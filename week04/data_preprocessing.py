@@ -71,4 +71,4 @@ housing_tr.loc[null_rows_idx].head()
 # 이상치 삭제
 from sklearn.ensemble import IsolationForest
 
-isola
+isolation
