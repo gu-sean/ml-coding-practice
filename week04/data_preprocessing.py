@@ -15,4 +15,4 @@ def load_housing_data():
         urllib.request.urlretrieve(url, tarball_path)
         with tarfile.open(tarball_path) as housing_tarball:
             housing_tarball.extractall(path="datasets")
-            
+    
