@@ -14,4 +14,5 @@ tips.info()
 import matplotlib.pyplot as plt
 
 # figure에 2개의 서브 플롯을 생성
-fig = plt.figure(fi)
+fig = plt.figure(figsize=(15,5))
+ax1 = 
