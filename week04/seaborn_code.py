@@ -43,4 +43,4 @@ sns.countplot(x='time', data=tips, ax=ax1)
 # x축 변수, hue로 색상 분류, 데이터 셋, 색상 설정, axe 객체(2번째 그래프)
 sns.countplot(x='time', hue='day', data=tips, palette='Set2', ax=ax2)
 
-ax1.set_title('Fre')
+ax1.set_title('Frequen')
