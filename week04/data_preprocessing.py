@@ -39,4 +39,7 @@ for set_ in (strat_train_set, strat_tast_set):
 """
 
 housing = strat_train_set("median_house_value", axis=1)
-housing_labels = strat_train_set["median_house_value"].
+housing_labels = strat_train_set["median_house_value"].copy()
+
+# 데이터 정제
+
