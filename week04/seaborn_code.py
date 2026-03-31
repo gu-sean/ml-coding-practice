@@ -8,3 +8,7 @@ tips = sns.load_dataset('tips')
 print(tips.head())
 
 tips.info()
+
+# **범주형 변수 산점도 그래프**
+
+import mat
