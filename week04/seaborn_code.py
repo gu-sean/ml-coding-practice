@@ -49,4 +49,5 @@ plt.savefig('./week04/Seabon_Figure02.jpg')
 
 # **선형 회귀선 있는 산점도**
 # figure에 2개의 서브 플롯을 생성
-fig = plt.fi
+fig = plt.figure(figsize=(15, 5))
+ax1 = fig.
