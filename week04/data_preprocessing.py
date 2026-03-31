@@ -39,4 +39,4 @@ for set_ in (strat_train_set, strat_tast_set):
 """
 
 housing = strat_train_set("median_house_value", axis=1)
-housing_labels = strat_train_set["median_house_"]
+housing_labels = strat_train_set["median_house_value"]
