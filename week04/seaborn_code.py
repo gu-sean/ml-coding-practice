@@ -62,3 +62,4 @@ sns.regplot(x='total_bill', y='tip', data=tips, color='blue', scatter_kws={'s':5
 fig.suptitle('Scatter Plots with Regression Lines', fontsize=16)
 ax1.set_title('fit_reg = True')
 ax2.set_title('fit_reg = False')
+plt.s
