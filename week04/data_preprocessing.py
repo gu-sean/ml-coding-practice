@@ -75,3 +75,5 @@ isolation_forest = IsolationForest(random_state=42)
 outlier_pred = isolation_forest.fit_predict(X)
 
 outlier_pred
+
+housing = 
