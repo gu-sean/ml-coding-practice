@@ -73,4 +73,4 @@ plt.savefig('./week04/Seaborn_Figure04.jpg')
 
 # **조인트 그래프**
 # jointplot( ) 그리기
-sns.jointplot(x='size', y='tip')
+sns.jointplot(x='size', y='tip', data=)
