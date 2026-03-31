@@ -38,3 +38,4 @@ for set_ in (strat_train_set, strat_tast_set):
     * 'inplace=True'로 지정하지 않은 한 'strat_train_set' 자체를 수정하지 않음
     """
     
+    
