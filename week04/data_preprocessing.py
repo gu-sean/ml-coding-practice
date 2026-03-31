@@ -79,3 +79,4 @@ outlier_pred
 housing = housing.iloc[outlier_pred == 1]
 housing_labels = housing_labels.iloc[outlier_pred == 1]
 
+# 
