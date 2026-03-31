@@ -32,5 +32,5 @@ strat_train_set, strat_tast_set = train_test_split(
 for set_ in (strat_train_set, strat_tast_set):
     set_.drop("income_cat", axis=1, inplace=True)
     
-    ""
+    """"""
     """
