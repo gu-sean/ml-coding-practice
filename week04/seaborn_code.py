@@ -63,3 +63,5 @@ fig.suptitle('Scatter Plots with Regression Lines', fontsize=16)
 ax1.set_title('fit_reg = True')
 ax2.set_title('fit_reg = False')
 plt.savefig('./week04/Seaborn_Figure03.jpg')
+
+# **
