@@ -27,5 +27,4 @@ housing["income_cat"] = pd.cut(housing["median_income"],
                             labels=[1,2,3,4,5])
 
 strat_train_set, strat_tast_set = train_test_split(
-    housing, test_size=0.2, stratify=housing["income_cat"], random_state=42
-)
+    housing, test_size=0.2, stratify=housing["income_cat"], random_state=42)
