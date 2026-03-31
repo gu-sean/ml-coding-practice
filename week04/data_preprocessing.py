@@ -9,4 +9,4 @@ import urllib.request
 
 def load_housing_data():
     tarball_path = Path("datasets/housing.tpz")
-    if not
+    if not tar
