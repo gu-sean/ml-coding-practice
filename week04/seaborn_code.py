@@ -72,4 +72,5 @@ plt.title('Histogram with KDE for Tips')
 plt.savefig('./week04/Seaborn_Figure04.jpg')
 
 # **조인트 그래프**
-# join
+# jointplot( ) 그리기
+sns.
