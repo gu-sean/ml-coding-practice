@@ -36,3 +36,4 @@ housing.loc[null_rows_idx].head()
 from sklearn.impute import SimpleImputer
 
 imputer = SimpleImputer(strategy="median")
+
