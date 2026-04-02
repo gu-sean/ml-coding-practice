@@ -34,4 +34,5 @@ null_rows_idx = housing.isnull().any(axis=1)
 housing.loc[null_rows_idx].head()
 
 from sklearn.impute import SimpleImputer
-im
+
+imputer
