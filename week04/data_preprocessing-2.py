@@ -26,4 +26,4 @@ for set_ in (strat_train_set, strat_test_set):
 """
 
 housing = strat_train_set.drop("median_house_value", axis=1)
-h
+housing_labels = st
