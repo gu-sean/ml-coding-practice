@@ -44,4 +44,6 @@ housing_num.head()
 imputer.fit(housing_num)
 
 print(imputer.statistics_)      # imputer 결과 값
-print(housing_num.m)
+print(housing_num.(self, *args, **kwargs):
+    return super().(*args, **kwargs)
+)
