@@ -17,4 +17,4 @@ strat_train_set, strat_test_set = train_test_split(
     housing, test_size=0.2, stratify=housing["income_cat"],random_state=42)
 
 for set_ in (strat_train_set, strat_test_set):
-    set_.drop("income_cat", axis=1, inpl)
+    set_.drop("income_cat", axis=1, inplace=True)
