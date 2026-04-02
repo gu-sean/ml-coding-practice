@@ -4,4 +4,4 @@
 import numpy as np
 import pandas as pd
 
-housing = pd.r
+housing = pd.read_csv()
