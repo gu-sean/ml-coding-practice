@@ -56,4 +56,4 @@ housing_tr = pd.DataFrame(X, columns=housing_num.columns,
 housing_tr.loc[null_rows_idx].head()
 
 # 이상치 삭제
-from sklearn.en
+from sklearn.ensemble import I
