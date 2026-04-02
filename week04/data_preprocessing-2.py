@@ -20,5 +20,5 @@ for set_ in (strat_train_set, strat_test_set):
     set_.drop("income_cat", axis=1, inplace=True)
     
 """
-    
+
 """
