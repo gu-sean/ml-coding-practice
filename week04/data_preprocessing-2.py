@@ -27,3 +27,6 @@ for set_ in (strat_train_set, strat_test_set):
 
 housing = strat_train_set.drop("median_house_value", axis=1)
 housing_labels = strat_train_set["median_house_value"].copy()
+
+# 데이터 정제
+# null 값이 있는 행 확인하기
