@@ -70,4 +70,4 @@ housing_labels = housing_labels.iloc[outlier_pred == 1]
 housing_cat = housing[["ocean_proximity"]]
 housing_cat.head(8)
 
-from sklearn.p
+from sklearn.preprocessing import 
