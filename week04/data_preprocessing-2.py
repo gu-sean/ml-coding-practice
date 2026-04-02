@@ -58,4 +58,4 @@ housing_tr.loc[null_rows_idx].head()
 # 이상치 삭제
 from sklearn.ensemble import IsolationForest
 
-isolation_forest = IsolationForest(ran)
+isolation_forest = IsolationForest(random_state=42)
