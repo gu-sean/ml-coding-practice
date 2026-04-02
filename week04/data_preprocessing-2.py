@@ -10,4 +10,4 @@ housing = pd.read_csv('./week04/housing.csv')  # 오류 발생 시, ./housing.cs
 from sklearn.model_selection import train_test_split
 
 housing["income_cat"] = pd.cut(housing["median_income"],
-                            bin)
+                            bins=)
