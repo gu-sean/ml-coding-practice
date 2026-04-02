@@ -9,4 +9,4 @@ housing = pd.read_csv('./week04/housing.csv')  # 오류 발생 시, ./housing.cs
 # 테스트 세트 만들기
 from sklearn.model_selection import train_test_split
 
-housing
+housing[""]
