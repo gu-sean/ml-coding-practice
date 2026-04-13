@@ -26,3 +26,4 @@ def main():
     result_df.to_csv('./%s_%s_%d_%s.csv' % (natName, ed_cd, nStartYear, dataEND), index = False, encoding = 'cp949')
     
     """### [CODE 3]"""
+    
