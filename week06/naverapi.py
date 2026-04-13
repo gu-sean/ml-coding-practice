@@ -65,4 +65,5 @@ def getRequestUrl(url):
     except Exception as e:
         print(e)
         print("[%s] Error for URL : %s" % (datetime.datetime.now(), url))
+        return None
     
