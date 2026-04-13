@@ -81,6 +81,6 @@ def getPostData(post, jsonResult, cnt): #[CODE 3]
     pDate = pDate.strftime('%Y-%m-%d %H:%M:%S')
     
     jsonResult.append({
-        ''
+        'cnt'
     })
     
