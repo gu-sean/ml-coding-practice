@@ -32,4 +32,5 @@ def main():
         result = []
         
         for year in range(nStartYear, nEndYear+1):
-            for mo
+            for month in range(1, 13):
+                yyyy
