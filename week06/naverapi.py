@@ -23,4 +23,5 @@ def main():
             getPostData(post, jsonResult, cnt)  #[CODE 3]
             
         start = jsonResult['start'] + jsonResult['display']
-        jsonResult = getNaverSearch(n)
+        jsonResult = getNaverSearch(node, srcText, start, 100)  # [CODE 2]
+        
