@@ -56,3 +56,5 @@ def main():
     result (jsonResult, result, natName, ed)
     
 """### [CODE 2]"""
+
+def get
