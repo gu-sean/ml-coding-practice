@@ -46,4 +46,5 @@ def getNaverSearch(node, srcText, page_start, display):
     responseDecode = getRequestUrl(url)  #[CODE 1]
     
     if (responseDecode == None):
-        re
+        return None
+    
