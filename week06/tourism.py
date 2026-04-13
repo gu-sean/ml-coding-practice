@@ -52,3 +52,5 @@ def main():
                     print('----------------------------------------------')
                     jsonResult.append({'nat_name' : natName, 'nat_cd' : nat_cd, 'yyyymm' : yyyymm, 'visit_cnt': num})
                     result.append([natName, nat_cd, yyyymm, num])
+                    
+                    
