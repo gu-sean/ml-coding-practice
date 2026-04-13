@@ -38,4 +38,4 @@ def main():
     
     
 def getNaverSearch(node, srcText, page_start, display):
-    base
+    base = 
