@@ -37,4 +37,4 @@ def main():
     print('%s_naver_%s.json SAVED' % (srcText, node))
     
     
-def getNaverSearch(no)
+def getNaverSearch(node, )
