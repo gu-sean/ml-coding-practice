@@ -57,4 +57,4 @@ def main():
     
 """### [CODE 2]"""
 
-def getTourismStatsItem()
+def getTourismStatsItem(yyyymm, nat_cd, )
