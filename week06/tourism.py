@@ -39,4 +39,4 @@ def main():
                     #데이터가 없는 마지막 항목인 경우 -----------------------
                     if jsonData['response']['body']['items'] == '':
                         dataEND = "{0}{1:0>2}".format(str(year), str(month-1))
-                        
+                        print
