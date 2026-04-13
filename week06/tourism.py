@@ -87,4 +87,3 @@ def getTourismStatsItem(yyyymm, nat_cd, ed_cd):
             print("[%s] Error for URL : %s" % (datetime.datetime.now(), url))
             return None
         
-    
