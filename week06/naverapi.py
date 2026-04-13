@@ -57,3 +57,6 @@ def getRequestUrl(url):
     req.add_header("X-Naver-Client-Id", client_id)
     req.add_header("X-Naver-Client-Secret", client_secret)
     
+    try:
+        re
+    
