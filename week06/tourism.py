@@ -45,3 +45,4 @@ def main():
                     print(json.dumps(jsonData, indent = 4, sort_keys = True,ensure_ascii = False))
                     
                     natName = jsonData['response']['body']['items']['item']['natKorNm']
+                    net
