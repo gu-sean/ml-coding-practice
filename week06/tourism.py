@@ -62,4 +62,4 @@ def getTourismStatsItem(yyyymm, nat_cd, ed_cd):
     parameters = "?_type=json&serviceKKey=" + ServiceKey
     parameters += "&YM=" + yyyymm
     parameters += "&NAT_CD=" + nat_cd
-    parameters += "&"
+    parameters += "&ED_CD=" + ed_cd
