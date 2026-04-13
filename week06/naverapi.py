@@ -9,3 +9,4 @@ client_secret = 'A0QryHAmx8'
 def main():
     
     node = 'news'
+    크롤
