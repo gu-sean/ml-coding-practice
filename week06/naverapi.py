@@ -74,3 +74,4 @@ def getPostData(post, jsonResult, cnt): #[CODE 3]
     org_link = post['originallink']
     link = post['link']
     
+    
