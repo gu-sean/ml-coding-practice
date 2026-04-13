@@ -27,4 +27,4 @@ def main():
     
     """### [CODE 3]"""
     
-    def getTourismSt
+    def getTourismStatsService(nat_cd,)
