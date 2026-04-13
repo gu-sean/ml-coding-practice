@@ -80,4 +80,4 @@ def getTourismStatsItem(yyyymm, nat_cd, ed_cd):
         try:
             response = urllib.request.urlopen(req)
             if response.getcode() == 200:
-                print("[%s] Url Request Success")
+                print("[%s] Url Request Success" % da)
