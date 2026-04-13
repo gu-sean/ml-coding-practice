@@ -68,5 +68,5 @@ def getRequestUrl(url):
         return None
     
     
-def get
+def getPostData(post, )
     
