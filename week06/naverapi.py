@@ -74,5 +74,7 @@ def getPostData(post, jsonResult, cnt): #[CODE 3]
     org_link = post['originallink']
     link = post['link']
     
-    # %a: 짧은 형식의 요일 이름 (예, 'Mon', "Tye', "Wed',)
+    # %a: 짧은 형식의 요일 이름 (예, 'Mon', "Tye', "Wed', ...)
+    # %d: 일 (예, 01, 02, 03, ...)
+    # %b: 짧은 형식의 월 이름 (예, ')
     
