@@ -68,5 +68,6 @@ def getRequestUrl(url):
         return None
     
     
-def getPostData(post, )
+def getPostData(post, jsonResult, cnt): #[CODE 3]
+    
     
