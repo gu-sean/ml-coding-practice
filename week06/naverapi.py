@@ -14,4 +14,4 @@ def main():
     cnt = 0
     jsonResult = []
     
-    jsonResult = 
+    jsonResult = get
