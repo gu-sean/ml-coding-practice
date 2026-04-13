@@ -18,4 +18,4 @@ def main():
     nEndYear = int(input('데이터를 몇 년까지 수집할까요? :'))
     ed_cd = "E"           # E : 방한외래관광객, D : 해외 출국
     
-    jsonResult, result, natName, dataEND = getTourismStatsService(nat_cd, ed_cd, nStartYear, nEndYear)  #[]
+    jsonResult, result, natName, dataEND = getTourismStatsService(nat_cd, ed_cd, nStartYear, nEndYear)  #[CODE 3]
