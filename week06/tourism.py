@@ -74,7 +74,7 @@ def getTourismStatsItem(yyyymm, nat_cd, ed_cd):
         return json.loads(responseDecode)
     
 """### [CODE 1]"""
-    
+
 def getRequestUrl(url):   #[CODE 1]
     req = urllib.request.Request(url)
     try:
