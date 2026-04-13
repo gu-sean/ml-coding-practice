@@ -48,4 +48,4 @@ def main():
                     natName = natName.replace(' ','')
                     num = jsonData['response']['body']['items']['item']['num']
                     ed = jsonData['response']['body']['items']['item']['ed']
-                    print('[%s]')
+                    print('[ %s_%s : %s]')
