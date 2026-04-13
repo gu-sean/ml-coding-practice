@@ -4,4 +4,7 @@ import datetime
 import json
 
 client_id = 'lN5IdpuaLHmLLewNoQJxe'
-client_secret = 
+client_secret = 'A0QryHAmx8'
+
+def main():
+    
