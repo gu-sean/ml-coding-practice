@@ -19,3 +19,5 @@ def main():
     ed_cd = "E"           # E : 방한외래관광객, D : 해외 출국
     
     jsonResult, result, natName, dataEND = getTourismStatsService(nat_cd, ed_cd, nStartYear, nEndYear)  #[CODE 3]
+    
+    # 파일정장
