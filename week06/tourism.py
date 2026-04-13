@@ -20,4 +20,4 @@ def main():
     
     jsonResult, result, natName, dataEND = getTourismStatsService(nat_cd, ed_cd, nStartYear, nEndYear)  #[CODE 3]
     
-    #파일정장
+    #파일저장
