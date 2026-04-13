@@ -15,4 +15,4 @@ def main():
     jsonResult = []
     
     jsonResult = getNaverSearch(node, srcText, 1, 100)   # [CODE 2]
-    to
+    total = 
