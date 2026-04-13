@@ -29,4 +29,5 @@ def main():
     
     def getTourismStatsService(nat_cd, ed_cd, nStartYear, nEndYear):
         jsonResult = []
-        result
+        result = []
+        
