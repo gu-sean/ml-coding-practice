@@ -38,4 +38,4 @@ def main():
                 if (jsonData['response']['header']['resultMsg'] == 'OK'):
                     #데이터가 없는 마지막 항목인 경우 -----------------------
                     if jsonData['response']['body']['items'] == '':
-                        data
+                        dataEND = 
