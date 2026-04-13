@@ -57,4 +57,4 @@ def main():
     
 """### [CODE 2]"""
 
-def getTour
+def getTourismStat
