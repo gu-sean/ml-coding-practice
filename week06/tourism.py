@@ -51,4 +51,4 @@ def main():
                     print('[ %s_%s : %s]' % (natName, yyyymm, num))
                     print('----------------------------------------------')
                     jsonResult.append({'nat_name' : natName, 'nat_cd' : nat_cd, 'yyyymm' : yyyymm, 'visit_cnt': num})
-                    result.append
+                    result.append()
