@@ -52,4 +52,4 @@ def getNaverSearch(node, srcText, page_start, display):
 
     
 def getRequestUrl(url):
-    req = u
+    req = urllib.
