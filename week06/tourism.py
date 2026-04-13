@@ -75,4 +75,5 @@ def getTourismStatsItem(yyyymm, nat_cd, ed_cd):
     
     """### [CODE 1]"""
     
-    def getReq
+    def getRequestUrl(url):
+        
