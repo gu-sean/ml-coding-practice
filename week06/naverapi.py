@@ -18,4 +18,5 @@ def main():
     total = jsonResult['total']
     
     while ((jsonResult != None) and (jsonResult['display'] != 0)):
-        for post in 
+        for post in jsonResult['items']:
+            
