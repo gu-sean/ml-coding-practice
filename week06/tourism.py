@@ -46,3 +46,4 @@ def main():
                     
                     natName = jsonData['response']['body']['items']['item']['natKorNm']
                     natName = natName.replace(' ','')
+                    num = jsonData
