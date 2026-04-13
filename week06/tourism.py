@@ -58,4 +58,4 @@ def main():
 """### [CODE 2]"""
 
 def getTourismStatsItem(yyyymm, nat_cd, ed_cd):
-    service_url = 
+    service_url = "http://openapi.tour.go.kr/openapi/service/EdrcntTourismStatsService/getEdrcntTourismStatsList"
