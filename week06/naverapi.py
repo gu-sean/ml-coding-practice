@@ -59,5 +59,5 @@ def getRequestUrl(url):
     
     try:
         response = urllib.request.urlopen(req)
-        if response.get
+        if response.getcode()
     
