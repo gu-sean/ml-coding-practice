@@ -11,4 +11,7 @@ print(X.shape)  # 28 x 28 개의 픽셀 특징을 가진 이미지 70,000개
 print(y)
 print(y.shape)
 
-import matplotlib.pyplot 
+import matplotlib.pyplot as plt
+
+def plot_digit(image_data):
+    
