@@ -82,3 +82,5 @@ print(recall_score(y_train_5, y_train_pred)) # == 3530 / (3530 + 1893)
 from sklearn.metrics import f1_score
 
 print(f1_score(y_train_5, y_train_pred))
+
+# R
