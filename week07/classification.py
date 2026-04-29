@@ -28,3 +28,4 @@ print(y[0])      # 샘플 데이터 레이블 확인 (=5)
 plt.figure(figsize=(9, 9))
 for idx, image_data in enumerate(X[:100]):
     plt.subplot(10, 10, idx + 1)
+    plot_digit(image_data)
