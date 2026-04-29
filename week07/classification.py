@@ -37,3 +37,4 @@ X_train, X_test, y_train, y_test = X[:60000], X[60000:], y[:60000], y[60000:]
 
 # 이진 분류기 훈련
 y_train_5 = (y_train == '5')
+y_test_5 = (y_teat == '5')
