@@ -55,4 +55,4 @@ from sklearn.dummy import DummyClassifier
 
 dummy_clf = DummyClassifier()
 dummy_clf.fit(X_train, y_train_5)
-print(any(dummy_clf.))
+print(any(dummy_clf))
