@@ -31,3 +31,5 @@ for idx, image_data in enumerate(X[:100]):
     plot_digit(image_data)
 plt.subplots_adjust(wspace=0, hspace=0)
 plt.show()
+
+#
