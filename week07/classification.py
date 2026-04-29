@@ -75,6 +75,6 @@ print(confusion_matrix(y_train_5, y_train_perfect_predictions))
 # 정밀도와 재현율
 from sklearn.metrics import precision_score, recll_score
 
-print(precision_score(y_train_5, y_train_pred)) # == 
+print(precision_score(y_train_5, y_train_pred)) # == 3530 / (687 + )
 
 print(recall_score(y_train_5, y_train_pred))
