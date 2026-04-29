@@ -7,3 +7,4 @@ print(mnist.keys()) # data와 target만 사용
 
 X, y = mnist.data, mnist.target
 print(X)
+
