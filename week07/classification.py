@@ -14,4 +14,5 @@ print(y.shape)
 import matplotlib.pyplot as plt
 
 def plot_digit(image_data):
+    image = image_data.reshape(28, 28)
     
