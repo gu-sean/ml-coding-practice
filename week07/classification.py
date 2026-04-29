@@ -95,4 +95,4 @@ from sklearn.metrics import RandomForestClassifier
 
 forest_clf = RandomForestCalssifier(random_state=42)
 
-y_pro
+y_probas_forest = cross_val_predict(forest_
