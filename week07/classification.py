@@ -93,7 +93,7 @@ roc_auc_score(y_train_5, y_scores)
 #다음은 실행하는데 몇 분 걸릴 수 있음
 from sklearn.metrics import RandomForestClassifier
 
-forest_clf = RandomForestCalssifier(random_state=42)
+forest_clf = RandomForestClassifier(random_state=42)
 
 y_probas_forest = cross_val_predict(forest_clf, X_train, y_train_5, cv=3, method="predict_proba")
 
