@@ -69,4 +69,4 @@ from sklearn.metrics import confusion_matrix
 cm = confusion_matrix(y_train_5, y_train_pred)
 print(cm)
 
-y_train_per
+y_train_perfect_predictions = y_train_5
