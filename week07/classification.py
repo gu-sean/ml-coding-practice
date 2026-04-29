@@ -76,3 +76,5 @@ print(confusion_matrix(y_train_5, y_train_perfect_predictions))
 from sklearn.metrics import precision_score, recll_score
 
 print(precision_score(y_train_5, y_train_pred))
+
+print(recall_score(y_train_5, y_train_pred))
