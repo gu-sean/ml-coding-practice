@@ -32,4 +32,4 @@ for idx, image_data in enumerate(X[:100]):
 plt.subplots_adjust(wspace=0, hspace=0)
 plt.show()
 
-# train
+# train/
