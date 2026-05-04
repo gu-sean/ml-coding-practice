@@ -187,4 +187,4 @@ sns.heatmap(netflix_age_country_unstack, cmap = cmap, linewidths=2.5, annot=True
 
 plt.suptitle('Target ages proportion of total content by country', 
             fontweight='bold', fontfamily='serif', fontsize=15)
-plt.title('Here we see interesting differences be')
+plt.title('Here we see interesting differences bet')
