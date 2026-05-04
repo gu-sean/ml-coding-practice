@@ -132,4 +132,4 @@ genres
 
 plt.figure(figsize=(12, 6))
 
-sns.barplot(x=genres.values, y=genres.index, hue=genres. index, pale)
+sns.barplot(x=genres.values, y=genres.index, hue=genres. index, palette = )
