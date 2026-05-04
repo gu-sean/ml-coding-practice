@@ -112,3 +112,4 @@ plt.title('We see more movies than TV shows on Netfilx.', fontfamily='serif', fo
 plt.show()
 
 netflix.head(3)
+
