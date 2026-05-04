@@ -205,4 +205,4 @@ text = str(list(netflix['description']))
 
 # mask : 단어를 그릴 위치 설정, 흰색(#FFFFFF) 항목은 마스킹된 것으로 간주
 # 로고 이미지 열고 넘파이 배열로 변환
-mask = np.array(Image.open)
+mask = np.array(Image.open('netflix_'))
