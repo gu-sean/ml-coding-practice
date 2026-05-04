@@ -111,4 +111,4 @@ plt.suptitle('Movie & TV Show distribution', fontfamily='serif', fontsiaze=15, f
 plt.title('We see more movies than TV shows on Netfilx.', fontfamily='serif', fontsize=12)
 plt.show()
 
-netfilx.head(3)
+netflix.head(3)
