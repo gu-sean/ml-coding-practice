@@ -84,4 +84,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # 데이터 전처리가 완료된 데이터셋 불러오기
-netflix = pd.read_csv('netflix')
+netflix = pd.read_csv('netflix_preprocessed.csv')
+
+# 넷플릭스 브랜드 상진 색깔 시간화
