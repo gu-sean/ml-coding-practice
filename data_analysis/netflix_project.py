@@ -191,4 +191,6 @@ plt.title('Here we see interesting differences between countries. Most shows in 
         fontsize=12, fontfamily='serif')
 plt.show()
 
-# 넷플릭스 데이터의 descr
+# 넷플릭스 데이터의 description 열 이용한 워드 클라우드 생성
+
+# Word
