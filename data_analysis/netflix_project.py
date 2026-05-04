@@ -179,3 +179,5 @@ netflix_age_country_unstack = netflix_age_country_unstack.div(netflix_age_countr
 netflix_age_country_unstack
 
 plt.figure(figsize=(15, 5))
+
+# 사용자 정의 컬러
