@@ -141,3 +141,5 @@ plt.grid(asis='x')
 plt.show()
 
 netflix[netflix['title'].str.contains('Sankofa', na=False, case=False)]
+
+
