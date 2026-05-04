@@ -118,4 +118,4 @@ genres = netflix['listed_in'].str.split(',', expand=True).stack().value_counts()
 genres
 
 # [1단계] listed_in 열에 있는 장르를 쉼표로 분할하기
-# 예시) 인덱스 1의 listed_in 열 값 : In
+# 예시) 인덱스 1의 listed_in 열 값 : Inter
