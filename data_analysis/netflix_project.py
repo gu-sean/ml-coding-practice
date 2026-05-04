@@ -62,5 +62,6 @@ age_group_dic = {
     'TV-PG': 'Older Kids',
     'PG-13': 'Teens',
     'TV-14': 'Young Adults',
+    'NC-17': 'Adults',
     
 }
