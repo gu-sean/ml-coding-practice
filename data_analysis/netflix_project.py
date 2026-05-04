@@ -155,3 +155,6 @@ netflix_age_country
 
 # title열의 값이 'Sankofa'인 행 전체를 확인하여 country 열과 age_group열의 값이 어떻게 이루어져 있는지 확인
 netflix_age_country[netflix_age_country['title'].str.contains('Snakofa', na=False, case=False)]
+
+# 각 나이 그룹에 따른 국가별 넷플리스 콘텐츠 수 구하기
+
