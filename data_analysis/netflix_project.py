@@ -125,4 +125,4 @@ netflix['listed_in'].str.split(',', expand=True)
 # 예시) 인덱스 1의 listed_in 열 값 : International TV Shows, TV Dramas, TV Mysteries
 netflix['listed_in'].str.split(',', expand=True).stack()
 
-# [3단계] 
+# [3단계] .value_count()
