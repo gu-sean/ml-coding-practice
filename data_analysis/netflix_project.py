@@ -173,3 +173,5 @@ netflix_age_country_unstack = netflix_age_country.unstack.loc[age_order, country
 # 결측치 0으로 처리
 netflix_age_country_unstack = netflix_age_country_instack.fillna(0)
 netflix_age_country_unstack
+
+#
