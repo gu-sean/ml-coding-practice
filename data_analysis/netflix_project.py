@@ -170,4 +170,4 @@ country_order = ['United States', 'India', 'United Kingdom', 'Canada', 'Japan',
 # .loc[ ] : 데이터프레임의 행과 열의 이름을 사용
 netflix_age_country_unstack = netflix_age_country.unstack.loc[age_order, country_order]
 
-# 
+# 결측치 0으로 
