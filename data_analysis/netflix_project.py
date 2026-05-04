@@ -23,4 +23,4 @@ netfilx.info()
 for i in netflix.columns:
     missingValueRate = netflix[i].isna().sum() / len(netflix) * 100
     if missingValRate > 0:
-        print("{}")
+        print("{} null rate: {}")
