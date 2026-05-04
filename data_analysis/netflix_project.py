@@ -79,4 +79,4 @@ netflix.head(2)
 netflix.to_csv('netflix_preprocessed.csv', index=False)
 
 import numpy as np
-import pansas as pd
+import pandas as pd
