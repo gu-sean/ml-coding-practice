@@ -25,4 +25,4 @@ for i in netflix.columns:
     if missingValueRate > 0:
         print("{} null rate: {}%".format(i,round(missingValueRate, 2)))
         
-        
+#
