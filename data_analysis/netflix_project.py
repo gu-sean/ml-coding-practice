@@ -26,4 +26,4 @@ for i in netflix.columns:
         print("{} null rate: {}%".format(i,round(missingValueRate, 2)))
         
 # .fillna( ) : 결측치를 다른 값으로 대체하여 처리
-# 결측치 비율 : country 
+# 결측치 비율 : country(9.44%)
