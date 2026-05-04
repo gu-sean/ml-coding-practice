@@ -33,3 +33,5 @@ netflix['country'] = netflix['country'].fillna('No Data')
 # 결측치 비율 : director(29.91%), cast(9.37%)
 netflix['director'] = netflix['director'].replace(np.nan, 'No Data')
 netflix['cast'] = netflix['cast'].replace(np.nan, 'No Data')
+
+# .dr
