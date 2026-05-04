@@ -178,4 +178,4 @@ netflix_age_country_unstack
 netflix_age_country_unstack = netflix_age_country_unstack.div(netflix_age_country_unstack.sum(axis=0), axis=1)
 netflix_age_country_unstack
 
-plt.figure(fi)
+plt.figure(figsize=(15, 5))
