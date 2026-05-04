@@ -181,4 +181,4 @@ netflix_age_country_unstack
 plt.figure(figsize=(15, 5))
 
 # 사용자 정의 컬러맵 만들기
-cmap = plt.matplotlib.colors.LinearSegmentedColormap.from_list('','#221f1f','#b20710')
+cmap = plt.matplotlib.colors.LinearSegmentedColormap.from_list('','#221f1f','#b20710','#')
