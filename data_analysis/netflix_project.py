@@ -13,4 +13,4 @@ netflix.head()
 # .columns : 열 이름 확인
 list(netflix.columns)
 
-# .head(3) 
+# .head(3) : 데이터 처음 
