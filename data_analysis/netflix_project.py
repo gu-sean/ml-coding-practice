@@ -214,3 +214,5 @@ cmap = plt.matplotlib.colors.LinearSegmentedColormap.from_list('',['#221f1f','#b
 # WordCloud( ).generate(text) : 선언해준 text에서 wordcloud를 생성
 wordcloud = WpordCloud(background_color='white', width=1400, height=1400,
                     max_words=170, mask=mask, colormap=cmap).generate(text)
+
+plt.
