@@ -149,4 +149,4 @@ pd.set_option('display.max_rows', None)
 netflix['country'] = netflix['country'].str.split(', ')
 netflix['country']
 
-# 파이썬 리스트로 바꾼 country 열의 값에 
+# 파이썬 리스트로 바꾼 country 열의 값에 exp
