@@ -44,3 +44,4 @@ netflix.dropna(axis = 0, inplace = True)
 netflix.info()
 
 # 데이터프레임의 각 컬럼별 결측치 개수 반환
+# is
