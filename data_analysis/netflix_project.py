@@ -39,4 +39,4 @@ netflix['cast'] = netflix['cast'].replace(np.nan, 'No Data')
 # 결측치 비율 : data_added(0.11%), rating(0.05%), duration(0.03%)
 netflix.dropna(axis = 0, inplace = True)
 
-# .info() :
+# .info() : 열에 대한 요약 정보 확인
