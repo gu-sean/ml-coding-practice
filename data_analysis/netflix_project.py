@@ -109,4 +109,7 @@ plt.pie(type_count, labels=type_counts.index, autopct='%0.f%%', startangle=100,
 
 plt.suptitle('Movie & TV Show distribution', fontfamily='serif', fontsiaze=15, fontweight='bold')
 plt.title('We see more movies than TV shows on Netfilx.', fontfamily='serif', fontsize=12)
-plt.show()
+plt.show(
+    
+
+)
