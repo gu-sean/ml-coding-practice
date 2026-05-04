@@ -191,4 +191,4 @@ plt.title('Here we see interesting differences between countries. Most shows in 
         fontsize=12, fontfamily='serif')
 plt.show()
 
-# 넷플릭스 데이터의 de
+# 넷플릭스 데이터의 descr
