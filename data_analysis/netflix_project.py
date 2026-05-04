@@ -147,4 +147,4 @@ pd.set_option('display.max_rows', None)
 
 # 쉼표로 country 열의 값을 파이썬 리스트로 만들기
 netflix['country'] = netflix['country'].str.split(', ')
-netflix
+netflix[]
