@@ -193,4 +193,5 @@ plt.show()
 
 # 넷플릭스 데이터의 description 열 이용한 워드 클라우드 생성
 
-# WordCloud
+# WordCloud : 원드 클라우드 생성에 필요한 모듈
+# Image : 
