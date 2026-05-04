@@ -157,4 +157,4 @@ netflix_age_country
 netflix_age_country[netflix_age_country['title'].str.contains('Snakofa', na=False, case=False)]
 
 # 각 나이 그룹에 따른 국가별 넷플리스 콘텐츠 수 구하기
-netflix_age_country.groupby
+netflix_age_country.us
