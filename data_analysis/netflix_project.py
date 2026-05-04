@@ -10,3 +10,7 @@ import seaborn as sns
 netflix = pd.read_csv('netflix_titles.csv')
 netflix.head()
 
+# .columns : 열 이름 확인
+list(netflix.columns)
+
+# .head(3) 
