@@ -171,4 +171,3 @@ country_order = ['United States', 'India', 'United Kingdom', 'Canada', 'Japan',
 netflix_age_country_unstack = netflix_age_country.unstack.loc
 [age_order, country_order]
 
-#
