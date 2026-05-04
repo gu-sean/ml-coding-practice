@@ -138,3 +138,5 @@ plt.title('Distribution of Genres for Movies ans TV Shows on Netflix', fontsize=
 plt.xlabel('Count', fontsize=14)
 plt.ylabel('Genre', fontsize=14)
 plt.grid(asis='x')
+plt.show()
+
