@@ -40,3 +40,4 @@ netflix['cast'] = netflix['cast'].replace(np.nan, 'No Data')
 netflix.dropna(axis = 0, inplace = True)
 
 # .info() : 열에 대한 요약 정보 확인
+# 
