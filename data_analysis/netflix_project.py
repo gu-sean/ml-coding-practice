@@ -176,4 +176,4 @@ netflix_age_country_unstack
 
 # 나이 그룹에 따른 국가별 넷플릭스 콘텐츠 비율 구하기
 netflix_age_country_unstack = netflix_age_country_unstack.div(netflix_age_country_unstack.sum(axis=0), axis=1)
-netflix
+netflix_age_country_unstack
