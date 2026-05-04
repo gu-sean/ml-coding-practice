@@ -164,4 +164,4 @@ netflix_age_country.unstack
 # 연령, 국가 리스트
 age_order = ['All', 'Older Kids', 'Teens', 'Adults']
 country_order = ['United States', 'India', 'United Kingdom', 'Canada', 'Japan', 
-                 'France', ']
+                 'France', 'S' ']
