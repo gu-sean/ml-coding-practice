@@ -190,3 +190,5 @@ plt.suptitle('Target ages proportion of total content by country',
 plt.title('Here we see interesting differences between countries. Most shows in South Korea are targeted to adults, for instance.',
         fontsize=12, fontfamily='serif')
 plt.show()
+
+# 넷플릭스 데이터의 de
