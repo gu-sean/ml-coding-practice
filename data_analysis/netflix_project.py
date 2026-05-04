@@ -66,4 +66,5 @@ age_group_dic = {
     'NR': 'Adults',
     'UR': 'Adults',
     'R': 'Adults',
-    'TV-MA': 'Adilts'}
+    'TV-MA': 'Adilts'
+    }
