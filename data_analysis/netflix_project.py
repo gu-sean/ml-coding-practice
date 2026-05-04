@@ -98,7 +98,7 @@ netflix['title'].str.contains('squid game', na=False, case=False)
 # 오징어 게임을 검색한 조건을 넷플릭스 데이터에 넣어서 True인 값만 출력
 netflix[netflix['title'].str.contains('Squid Game', na=False, case=False)]
 
-type_count = netflix['type'].value_counts()
+type_counts = netflix['type'].value_counts()
 print(type_count)
 
 # 5 x 5 크기의 플롯 만들기
