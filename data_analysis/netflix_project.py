@@ -47,4 +47,4 @@ netflix.info()
 # isna() == insnull() : 결측 값은 True, 반환하고, 그 이외에는 False 반환
 netflix.isna().sum()
 
-# 시청 등급 기준표를 참고하여 
+# 시청 등급 기준표를 참고하여 Netflix의 rating 변수를 이용한 
