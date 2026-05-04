@@ -161,3 +161,5 @@ netflix_age_country.unstack = netflix_age_country.groupby('age_group')['country'
 netflix_age_country.unstack
 
 # 특정 나이 그룹에 따른 특정 나라별 콘텐츠로 필터링
+# 연령, 국가 리스트
+age_
