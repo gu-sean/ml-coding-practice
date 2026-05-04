@@ -53,5 +53,5 @@ netflix['age_group'] = netflix['rating']
 
 # 시청 등급 코드를 더 이해하기 쉬운 표현으로 매핑할 딕셔너리 정의(key, value 선언)
 age_group_dic = {
-    'G':
+    'G': 'All',
 }
