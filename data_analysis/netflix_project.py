@@ -168,4 +168,4 @@ country_order = ['United States', 'India', 'United Kingdom', 'Canada', 'Japan',
 
 # 데이터 필터링
 # .loc[ ] : 데이터프레임의 행과 열의 이름을 사용
-netflix_age_country_instack
+netflix_age_country_unstack
