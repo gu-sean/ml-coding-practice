@@ -160,4 +160,4 @@ netflix_age_country[netflix_age_country['title'].str.contains('Snakofa', na=Fals
 netflix_age_country.unstack = netflix_age_country.groupby('age_group')['country'].value_counts().unstack()
 netflix_age_country.unstack
 
-# 특정 나이 그룹에 따른 환
+# 특정 나이 그룹에 따른 특정 나라별 콘텐츠로 필터링
