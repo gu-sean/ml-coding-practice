@@ -140,4 +140,4 @@ plt.ylabel('Genre', fontsize=14)
 plt.grid(asis='x')
 plt.show()
 
-netflix[netflix['title'].str.]
+netflix[netflix['title'].str.contains()]
