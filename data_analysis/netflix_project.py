@@ -219,4 +219,4 @@ plt.suptitle('Keywords in the description of Movies and TV shows',
             fontweight='bold', fontfamily='serif', fontsize=15)
 
 #워드 클라우드 표시
-#
+# plt.
