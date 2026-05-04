@@ -132,4 +132,4 @@ genres
 
 plt.figure(figsize=(12, 6))
 
-sns.
+sns.barplot(x=genres.values, )
