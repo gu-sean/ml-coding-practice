@@ -105,4 +105,4 @@ print(type_count)
 plt.figure(figsize=(5, 5))
 
 plt.pie(type_count, labels=type_count.index, autopct='%0.f%%', startangle=100,
-        explode=[])
+        explode=[0.05, ])
