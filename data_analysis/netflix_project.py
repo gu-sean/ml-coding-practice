@@ -80,4 +80,7 @@ netflix.to_csv('netflix_preprocessed.csv', index=False)
 
 import numpy as np
 import pandas as pd
-import Mat
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# 데이터 전처리가 
