@@ -200,4 +200,4 @@ from PIL import Image
 
 plt.figure(figsize=(15, 5))
 
-# word
+# wordcolud에서 작동할 수 있도록 데이터프레임을 list로 1차 변환시키고 str(문자열)
