@@ -46,3 +46,5 @@ netflix.info()
 # 데이터프레임의 각 컬럼별 결측치 개수 반환
 # isna() == insnull() : 결측 값은 True, 반환하고, 그 이외에는 False 반환
 netflix.isna().sum()
+
+# 시청 등급 기준표를 참고하여 
