@@ -68,5 +68,3 @@ age_group_dic = {
     'R': 'Adults',
     'TV-MA': 'Adults'
     }
-
-#
