@@ -114,4 +114,4 @@ plt.show()
 netflix.head(3)
 
 # 넷플릭스 데이터 셋의 장르별 등장 횟수 계산
-genres = netflix['listed_in'].str.split(',')
+genres = netflix['listed_in'].str.split(',', exp)
