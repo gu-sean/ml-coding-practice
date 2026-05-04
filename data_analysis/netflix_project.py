@@ -200,3 +200,4 @@ from PIL import Image
 
 plt.figure(figsize=(15, 5))
 
+# word
