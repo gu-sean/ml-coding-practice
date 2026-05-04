@@ -65,4 +65,4 @@ age_group_dic = {
     'NC-17': 'Adults',
     'NR': 'Adults',
     'UR': 'Adults',
-    }
+    'R': }
