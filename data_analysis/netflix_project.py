@@ -223,4 +223,5 @@ plt.suptitle('Keywords in the description of Movies and TV shows',
 plt.imshow(wordcloud)
 
 # 축 감추기
-plt.axis
+plt.axis('off')
+plt.show()
