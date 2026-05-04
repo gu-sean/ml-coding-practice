@@ -34,4 +34,4 @@ netflix['country'] = netflix['country'].fillna('No Data')
 netflix['director'] = netflix['director'].replace(np.nan, 'No Data')
 netflix['cast'] = netflix['cast'].replace(np.nan, 'No Data')
 
-# .dr
+# .dropna()
