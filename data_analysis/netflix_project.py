@@ -83,4 +83,5 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# 데이터 전처리가 
+# 데이터 전처리가 완료된 데이터셋 불러오기
+netflix = 
