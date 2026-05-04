@@ -113,3 +113,4 @@ plt.show()
 
 netflix.head(3)
 
+# 넷플릭스 데이터 셋의 장르별
