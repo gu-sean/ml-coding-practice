@@ -14,4 +14,6 @@ netflix.head()
 list(netflix.columns)
 
 # .head(3) : 데이터 처음 3개의 행 출력
-netflix.
+netflix.head(3)
+
+#
