@@ -16,3 +16,5 @@ svm_clf = make_pipeline(StandardScaler(),
 svm_clf.fit(X, y)
 
 X_new = [[5.5, 1.7], [5.0, 1.5]]
+
+print(s)
