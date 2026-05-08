@@ -30,4 +30,4 @@ lin_reg = LinearRegression()
 lin_reg.fit(X, y)
 lin_reg.intercept_, lin_reg.coef_
 
-X_new = np.
+X_new = np.array()
