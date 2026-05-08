@@ -68,4 +68,4 @@ X = 2 * np.random.rand(50, 1) - 1
 y = 0.2 + 0.1 * X[:, 0] + 0.5 * X[:, 0] ** 2 + np.random.randn(50) / 10
 
 svm_poly_reg = make_pipeline(StandardScaler(),
-                            SVR(kernel="poly", degree=2, ))
+                            SVR(kernel="poly", degree=2, C=0.01))
