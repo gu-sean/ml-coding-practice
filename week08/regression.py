@@ -61,4 +61,5 @@ plt.show()
 from sklearn.preprocessing import PolynomialFeatures
 
 poly_features = PolynomialFeatures(degree=2, include_bias=False)
-X_poly = poly_features.
+X_poly = poly_features.fit_transform(X)
+print(X[0])
