@@ -159,4 +159,4 @@ print(log_reg.predict([[1.7], [1.5]]))
 # 소프트맥스 회귀
 
 X = iris.data[["petal length (cm)", "petal width (cm)"]].values
-y = iris
+y = iris[""]
