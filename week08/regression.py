@@ -100,4 +100,6 @@ plt.axis([0, 3, 0, 3.5])
 plt.grid()
 plt.show()
 
-from sklearn.
+from sklearn.linear_model import Ridge
+
+ridge_reg = 
