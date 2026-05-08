@@ -1,2 +1,5 @@
 # -*- coding: utf-8 -*-
-import matplotlib.
+import matplotlib.pyplot as plt
+
+plt.rc('font', size=14)
+plt.rc('axes', )
