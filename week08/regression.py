@@ -47,4 +47,4 @@ sgd_reg.intercept_, sgd_reg.coef_
 
 np.random.seed(42)
 m = 100
-X = 
+X = 6 * np
