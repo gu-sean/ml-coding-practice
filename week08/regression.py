@@ -27,4 +27,4 @@ plt.show()
 from sklearn.linear_model import LinearRegression
 
 lin_reg = LinearRegression()
-lin_reg.
+lin_reg.fit(X, y)
