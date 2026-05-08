@@ -73,4 +73,4 @@ X_new = np.linspace(-3, 3, 100).reshape(100, 1)
 X_new_poly = poly_features.transform(X_new)
 y_new = lin_reg.predict(X_new_poly)
 
-plt.figure(figsize=())
+plt.figure(figsize=(6, 4))
