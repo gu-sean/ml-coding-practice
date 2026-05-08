@@ -111,4 +111,6 @@ sgd_reg = SGDRegressor(penalty="l2", alpha=0.1 / m, tol=None,
 sgd_reg.fit(X, y.ravel())  # fit()은 1D 타켓을 기대하므로 y.ravel()을 사용합니다.
 print(sgd_reg.predict([[1.5]]))
 
-# 확률적 평균 GD(solver="sag")
+# 확률적 평균 GD(solver="sag")를 사용하면
+# 이전과 거의 동일한 솔루션을 얻을 수 있음을 보여줍니다.
+ridge_reg = 
