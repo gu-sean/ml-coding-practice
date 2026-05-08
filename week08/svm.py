@@ -65,3 +65,4 @@ from sklearn.svm import SVR
 # 이 세줄은 간단한 2차방정식 데이터셋을 생성합니다.
 np.random.seed(42)
 X = 2 * np.random.rand(50, 1) - 1
+y = 
