@@ -7,4 +7,4 @@ plt.rc('legend', fontsize=14)
 plt.rc('xtick', labelsize=10)
 plt.rc('ytick', labelsize=10)
 
-impo
+import
