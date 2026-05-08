@@ -9,4 +9,4 @@ from sklearn.svm import LinearSVC
 
 iris = load_iris(as_frame=True)
 X = iris.data[["petal length (cm)", "petal width (cm)"]].values
-y = (iris.target == 2)   # Iris vir
+y = (iris.target == 2)   # Iris virgin
