@@ -58,4 +58,4 @@ plt.axis([-3, 3, 0, 10])
 plt.grid()
 plt.show()
 
-from sklearn.
+from sklearn.preprocessing import Poly
