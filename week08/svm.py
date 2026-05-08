@@ -40,3 +40,4 @@ from sklearn.svm import SVC
 
 poly_kernel_svm_clf = make_pipeline(StandardScaler(),
                                     SVC(kernel="poly", degree=3,coef0=1, C=5))
+p
