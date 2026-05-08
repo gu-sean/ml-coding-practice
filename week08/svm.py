@@ -38,4 +38,5 @@ polynomial_svm_clf.fit(X, y)
 
 from sklearn.svm import SVC
 
-poly_kernel_svm_clf = make_pipeline(StandardScaler(),)
+poly_kernel_svm_clf = make_pipeline(StandardScaler(),
+                                    )
