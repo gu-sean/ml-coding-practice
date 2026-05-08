@@ -3,4 +3,5 @@
 
 import numpy as np
 from sklearn.datasets import load_iris
-from sklearn.pipeline import mak
+from sklearn.pipeline import make_pipeline
+from sklearn.
