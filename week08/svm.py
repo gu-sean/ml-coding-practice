@@ -38,4 +38,4 @@ polynomial_svm_clf.fit(X, y)
 
 from sklearn.svm import SVC
 
-pl
+poly_ker
