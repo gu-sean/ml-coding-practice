@@ -45,4 +45,6 @@ sgd_reg.intercept_, sgd_reg.coef_
 
 # 다항 회귀
 
-np.
+np.random.seed(42)
+m = 100
+
