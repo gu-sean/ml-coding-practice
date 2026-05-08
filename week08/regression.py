@@ -60,4 +60,4 @@ plt.show()
 
 from sklearn.preprocessing import PolynomialFeatures
 
-poly_features = Polynomi
+poly_features = PolynomialFeatures
