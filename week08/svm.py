@@ -2,4 +2,4 @@
 # 선형 SVM 분류
 
 import numpy as np
-from sklearn.datasets import lo
+from sklearn.datasets import load_iris
