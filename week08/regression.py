@@ -18,4 +18,4 @@ import matplotlib.pyplot as plt
 
 plt.figure(figsize=(6, 4))
 plt.plot(X, y, "b.")
-plt.xlabel("X")
+plt.xlabel("")
