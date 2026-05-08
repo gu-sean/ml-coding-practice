@@ -116,3 +116,5 @@ print(sgd_reg.predict([[1.5]]))
 ridge_reg = Ridge(alpha=0.1, solver="sag", random_state=42)
 ridge_reg.fit(X, y)
 print(ridge_reg.predict([[1.5]]))
+
+# 라쏘 회귀 
