@@ -2,4 +2,4 @@
 import matplotlib.pyplot as plt
 
 plt.rc('font', size=14)
-plt.rc('axes', )
+plt.rc('axes', labelsize=14)
