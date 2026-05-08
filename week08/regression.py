@@ -24,4 +24,4 @@ plt.axis([0, 2, 0, 15])
 plt.grid()
 plt.show()
 
-from sklearn.
+from sklearn.li
