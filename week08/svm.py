@@ -22,4 +22,4 @@ print(svm_clf.decision_function(X_new))
 
 # 비선형 SVM 분류
 
-from sklearn.
+from sklearn.datasets import mak
