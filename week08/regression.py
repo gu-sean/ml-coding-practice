@@ -55,4 +55,7 @@ plt.plot(X, y, "b.")
 plt.xlabel("$x_1$")
 plt.ylabel("$y$", rotation=0)
 plt.axis([-3, 3, 0, 10])
-plt.
+plt.grid()
+plt.show()
+
+from sklearn.
