@@ -145,4 +145,4 @@ print(iris.target.head(3))   # 샘플이 섞여 있지 않습니다.
 print(iris.target_names)
 
 from sklearn.linear_model import LogisticRegression
-from sklearn.model_selection import 
+from sklearn.model_selection import train_test_split
