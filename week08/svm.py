@@ -13,4 +13,4 @@ y = (iris.target == 2)   # Iris virginica
 
 svm_clf = make_pipeline(StandardScaler(), 
                         LinearSVC(C=1, dual=True, random_state=42))
-s
+svm_clf.
