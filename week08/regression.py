@@ -149,4 +149,4 @@ from sklearn.model_selection import train_test_split
 
 X = iris.data[["petal width (cm)"]].values
 y = iris.target_names[iris.target] == 'virginica'
-X_train, X_test, 
+X_train, X_test, y_
