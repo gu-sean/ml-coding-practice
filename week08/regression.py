@@ -87,4 +87,4 @@ plt.show()
 
 np.random.seed(42)
 m = 20
-X = 3 * np.random.
+X = 3 * np.random.rand()
