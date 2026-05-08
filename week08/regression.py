@@ -39,4 +39,4 @@ from sklearn.linear_model import SGDRegressor
 
 sgd_reg = SGDRegressor(max_iter=1000, tol=1e-5, penalty=None, eta0=0.01,
                     n_iter_no_change=100, random_state=42)
-sgd_reg.fit(X, y.)
+sgd_reg.fit(X, y.ravel())
