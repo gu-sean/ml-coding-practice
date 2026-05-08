@@ -57,4 +57,4 @@ X = 2 * np.random.rand(50, 1)
 y = 4 + 3 * X[:, 0] + np.random.randn(50)
 
 svm_reg = make_pipeline(StandardScaler(),
-                        LinearSVR(epsilon=0.5, dual=True,))
+                        LinearSVR(epsilon=0.5, dual=True, rand))
