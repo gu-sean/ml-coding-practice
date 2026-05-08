@@ -36,3 +36,6 @@ polynomial_svm_clf.fit(X, y)
 
 # 다항식 커널
 
+from sklearn.svm import SVC
+
+pl
