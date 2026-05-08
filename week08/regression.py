@@ -37,4 +37,5 @@ print(lin_reg.predict(X_new))
 
 from sklearn.linear_model import SGDRegressor
 
-sgd_reg = SGDRegressor(max_iter=1000, tol=1e-5, penalty=None, eta0=0.01)
+sgd_reg = SGDRegressor(max_iter=1000, tol=1e-5, penalty=None, eta0=0.01,
+                    )
