@@ -144,4 +144,4 @@ print(iris.target.head(3))   # 샘플이 섞여 있지 않습니다.
 
 print(iris.target_names)
 
-from sklearn.
+from sklearn.linear_model import Lo
