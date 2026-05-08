@@ -134,4 +134,4 @@ elastic_net.fit(X, y)
 print(elastic_net.predict([[1.5]]))
 
 # 로지스틱 회귀
-from sklearn.d
+from sklearn.datasets import load_
