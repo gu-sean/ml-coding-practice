@@ -137,4 +137,6 @@ print(elastic_net.predict([[1.5]]))
 from sklearn.datasets import load_iris
 
 iris = load_iris(as_frame=True)
-list()
+list(iris)
+
+print(iris.)
