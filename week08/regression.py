@@ -24,4 +24,5 @@ plt.axis([0, 2, 0, 15])
 plt.grid()
 plt.show()
 
-from sklearn.linear_model import LinearRe
+from sklearn.linear_model import LinearRegression
+
