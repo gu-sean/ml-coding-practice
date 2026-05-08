@@ -28,4 +28,4 @@ from sklearn.linear_model import LinearRegression
 
 lin_reg = LinearRegression()
 lin_reg.fit(X, y)
-lin_reg.intercept_, lin_reg.
+lin_reg.intercept_, lin_reg.coef_
