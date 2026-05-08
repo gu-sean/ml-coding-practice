@@ -139,4 +139,5 @@ from sklearn.datasets import load_iris
 iris = load_iris(as_frame=True)
 list(iris)
 
-print(iris.data.head)
+print(iris.data.head(3))
+print()
