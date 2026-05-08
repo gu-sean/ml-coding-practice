@@ -49,4 +49,4 @@ rbf_kernel_svm_clf.fit(X, y)
 
 # SVM 회귀
 
-from sklearn.svm import L
+from sklearn.svm import LinearSVR
