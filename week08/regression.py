@@ -69,4 +69,5 @@ lin_reg = LinearRegression()
 lin_reg.fit(X_poly, y)
 lin_reg.intercept_, lin_reg.coef_
 
-X_new = np,linspace(-3, 3, 100).
+X_new = np,linspace(-3, 3, 100).reshape(100, 1)
+X_new
