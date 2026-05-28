@@ -177,4 +177,5 @@ knn = KMeighborsClassifier(n_neighbors=50)
 knn.fit(dbscan.components_, dbscan.labels_[dbscan.core_sample_indices_])
 
 X_new = np.array([[0, 2], [-2, 3], [-3, 3], [-3, 4], [-3, 1]])
-print(knn.predict())
+print(knn.predict(X_new))
+print(knn.predict_proba(X_new ))
