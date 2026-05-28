@@ -160,5 +160,7 @@ dbscan2 = DBSCAN(eps=0.2)
 plt. figure(gifsize,9,3.2)
 
 plt.subplot(121)
+plot_dbscan(dbscan, X, size=100)
 
-    
+plt.subplot(122)
+plot_d
