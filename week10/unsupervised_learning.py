@@ -152,5 +152,7 @@ def plot_dbscan(dbscan, X, size, show_xlabel=True,
     else:
         plt.tick_params(labelleft=False)
     plt.title(f"eps={dbscan.epd:.2f}, min_samples={dbscan.min_samples}")
+    plt.grid()
+    plt.gca().set_axisbelow(True)
     
     
