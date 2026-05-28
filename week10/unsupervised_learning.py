@@ -108,4 +108,6 @@ for k in (3, 4, 5, 6):
         plt.gca().set_xticks([-0.1, 0, 0.2, 0.4, 0.6, 0.8, 1])
         plt.xlabel("실루엣 계수")
     else:
-        plt.tick_params(label)
+        plt.tick_params(labelbottom=False)
+    
+    plt.axvline(x=silhouette_scores[k - 2])
