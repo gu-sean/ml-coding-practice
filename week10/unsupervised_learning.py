@@ -105,4 +105,4 @@ for k in (3, 4, 5, 6):
         plt.ylabel("클러스터")
         
     if k in (5, 6):
-        plt.gca()
+        plt.gca().set_xticks
