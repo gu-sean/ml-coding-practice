@@ -95,4 +95,4 @@ for k in (3, 4, 5, 6):
         coeffs.sort()
         
         color = plt.cm.Spectral(i / k)
-        plt.fill_betweenx(np.arange(pos, p))
+        plt.fill_betweenx(np.arange(pos, pos + len)), 0, coeffs, facecolor=color, edg
