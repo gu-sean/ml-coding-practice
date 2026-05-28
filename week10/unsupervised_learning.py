@@ -139,3 +139,4 @@ def plot_dbscan(dbscan, X, size, show_xlabel=True,
     anomalies = X[anomalies_mask]
     non_cores = X[non_core_mask]
     
+    cores = dbscan.compon
