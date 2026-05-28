@@ -71,13 +71,13 @@ silhouette_scores = [silhouette_score(X, model.labels_) for model in kmeans_per_
 plt.figure(figsize=(8, 3))
 plt.plot(range(2, 10), silhouette_scores, "bo-")
 plt.xlabel("$k$")
-plt.ylabel("실루엣 스코어")
+plt.ylabel("실루엣 점수")
 plt.axis([1.8, 8.5, 0.55, 0.8])
 plt.grid()
 plt.show()
 
 from sklearn.metrics import silhouette_samples
-from matplotlib import FixedLocator, FixedFormatter
+from matplotlib.ticker import FixedLocator, FixedFormatter
 
 plt.figure(figsize=(11, 9))
 
