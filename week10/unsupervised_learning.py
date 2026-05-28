@@ -151,5 +151,6 @@ def plot_dbscan(dbscan, X, size, show_xlabel=True,
         plt.ylabel("$x_2$", rotation=0)
     else:
         plt.tick_params(labelleft=False)
-    plt.title(f"eps={}")
+    plt.title(f"eps={dbscan.epd:.2f}, min_samples={dbscan.min_samples}")
+    
     
