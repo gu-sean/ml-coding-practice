@@ -131,6 +131,6 @@ print(dbscan.components_)
 def plot_dbscan(dbscan, X, size, show_xlabel=True,
                 show_ylabel=True):
     core_mask = np.zeros_like(dbscan.labels, dtype=bool)
-    c
-
+    core_mask[dbscan.core_sample_indices_] = True
+    
     
