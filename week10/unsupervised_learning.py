@@ -56,5 +56,5 @@ plt.figure(figsize=(8, 3.5))
 plt.plot(range(1, 10), inertias, "bo-")
 plt.xlabel("$k$")
 plt.ylabel("이너셔")
-plt.an
+plt.annotate("", xy=(5, inertias[4]), xytext=(4.45, 650), arrowprops=dict(f))
 plt.show()
