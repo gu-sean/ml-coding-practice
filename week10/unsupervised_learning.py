@@ -66,7 +66,7 @@ from sklearn.metrics import silhouette_score
 
 print(silhouette_score(X, kmeans.labels_))
 
-silhouette_scores = [silhouette_score(X, model.labels) for model in kmeans_per_k[1:]]
+silhouette_scores = [silhouette_score(X, model.labels_) for model in kmeans_per_k[1:]]
 
 plt.figure(figsize=(8, 3))
 plt.plot(range(2, 10), silhouette_scores, "bo-")
