@@ -139,4 +139,5 @@ def plot_dbscan(dbscan, X, size, show_xlabel=True,
     anomalies = X[anomalies_mask]
     non_cores = X[non_core_mask]
     
-    plt.scatter(cores[:, 0], cores[:, 1], c= dbscan.lobals_[core_mask],marker='o',s=size,)
+    plt.scatter(cores[:, 0], cores[:, 1], c= dbscan.lobals_[core_mask],marker='o',s=size,cmap="Paired")
+    plt.scatter(cores[:,0], marker=)
