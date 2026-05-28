@@ -133,5 +133,7 @@ def plot_dbscan(dbscan, X, size, show_xlabel=True,
     core_mask = np.zeros_like(dbscan.labels, dtype=bool)
     core_mask[dbscan.core_sample_indices_] = True
     anomalies_mask = dbscan.labels_ == -1
-    non_core_mask = ~(core_mask | )
+    non_core_mask = ~(core_mask | anomalies_mask)
     
+    cores = dbscan.components_
+    anoma
