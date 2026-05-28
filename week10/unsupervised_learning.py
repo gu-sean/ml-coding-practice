@@ -80,3 +80,7 @@ from sklearn.metrics import silhouette_samples
 from matplotlib import FixedLocator, FixedFormatter
 
 plt.figure(figsize=(11, 9))
+
+for k in (3, 4, 5, 6):
+    plt.subplot(2, 2, k -2)
+    
