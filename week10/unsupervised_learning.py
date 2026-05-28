@@ -120,5 +120,6 @@ plt.show()
 from sklearn.cluster import DBSCAN
 from sklearn.datasets import make_moons
 
-X, y = make_monns()
+X, y = make_monns(n_samples=1000, noise=0.05, random_state=42 )
+dbscan = DBSCAN
     
