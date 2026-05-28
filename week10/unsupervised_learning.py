@@ -72,5 +72,8 @@ plt.figure(figsize=(8, 3))
 plt.plot(range(2, 10), silhouette_scores, "bo-")
 plt.xlabel("$k$")
 plt.ylabel("실루엣 스코어")
-plt.title("클러스터 수에 따른 실루엣 스코어")
+plt.axis([1.8, 8.5, 0.55, 0.8])
+plt.grid()
 plt.show()
+
+from sklearn.
