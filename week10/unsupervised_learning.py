@@ -155,4 +155,6 @@ def plot_dbscan(dbscan, X, size, show_xlabel=True,
     plt.grid()
     plt.gca().set_axisbelow(True)
     
+dbscan2 = DBSCAN(eps=0.2)
+plt. figure(gifsize)
     
