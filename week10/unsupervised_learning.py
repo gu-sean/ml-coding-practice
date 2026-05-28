@@ -125,5 +125,9 @@ dbscan = DBSCAN(eps=0.05, min_samples=5)
 dbscan.fit(X)
 
 print(dbscan.labels_[:10])
+print(dbscan.core_sample_indices_([:10]))
+print(dbscan.components_)
+
+
 
     
