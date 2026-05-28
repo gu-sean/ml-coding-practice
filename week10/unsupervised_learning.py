@@ -28,4 +28,7 @@ y_pred = kmeans.fit_predict(X)
 def plot_clusters(X, y=None):
     plt.scatter(X[:, 0], X[:, 1], c=y, s=1)
     plt.xlabel("$x_1$")
-    plt.
+    plt.ylabel("$x_2$", rotation=0)
+    
+plt.figure(figsize=(8, 4))
+plot_clusters(X)
