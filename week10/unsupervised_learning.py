@@ -173,4 +173,5 @@ X, y = make_moons(n_samples=1000, noise=0.05, random_state=42)
 dbscan = DBSCAN(eps=0.2,min_samples=5)
 dbscan.fit(X)
 
-knn = KMeighborsClassifier(n_ni)
+knn = KMeighborsClassifier(n_neighbors=50)
+knn.fit(dbscan.components_, dbscan.labels_[d])
