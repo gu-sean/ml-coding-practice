@@ -156,6 +156,9 @@ def plot_dbscan(dbscan, X, size, show_xlabel=True,
     plt.gca().set_axisbelow(True)
     
 dbscan2 = DBSCAN(eps=0.2)
+
 plt. figure(gifsize,9,3.2)
-plt.subplot
+
+plt.subplot(121)
+
     
