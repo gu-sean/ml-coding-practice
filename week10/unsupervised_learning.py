@@ -99,4 +99,4 @@ for k in (3, 4, 5, 6):
         ticks.append(pos+len(coeffs) // 2)
         pos += len(coeffs)+padding
     
-    
+    plt.gca().yaxis.set_major_locator
