@@ -117,5 +117,6 @@ plt.show()
 
 
 # DBSCAN
-from sk
+from sklearn.cluster import DBSCAN
+from sklearn.datasets,
     
