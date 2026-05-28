@@ -148,5 +148,6 @@ def plot_dbscan(dbscan, X, size, show_xlabel=True,
     else:
         plt.tick_params(labelbottom=False)
     if show_ylabels:
-        plt.
+        plt.ylabel("$x_2$", rotation=0)
+        
     
